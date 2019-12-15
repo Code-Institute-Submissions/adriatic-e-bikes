@@ -11,7 +11,18 @@ body { font-family: 'Roboto', sans-serif;;
   display:flex;
   align-items:center;
   justify-content:center;
-  position:relative; }
+  position:relative;
+   animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; }
+    @keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
 
   .price{font-syle:italic;
                   color:white;}
