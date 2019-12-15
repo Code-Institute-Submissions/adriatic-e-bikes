@@ -1,3 +1,73 @@
-body {
- background-color: rgb(149, 162, 238);
+body { font-family: 'Roboto', sans-serif;;
 }
+.alert-container{}
+
+.callout-container{height:100vh;
+ background: url("../images/background.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative; }
+
+  .price{font-syle:italic;
+                  color:white;}
+
+  .block-divider{width:75px;
+                 height:5px;
+                 border:0;
+                 background-color:grey:}                          
+
+ .jumbotron{background-color: transparent; }                           
+
+.quotes-container{}
+
+.features-container{}
+
+.jumbotron-header{color:white;
+                  font-weight: bold;
+                  margin-bottom:30px;
+                  font-size:150%;
+                  }
+
+.jumbotron small{font-size:100%;
+                  font-syle:italic;
+                  color:white;  } 
+
+.jumbotron .lead{margin:50px 0;
+                 color:rgb(218, 105, 71);
+                 }    
+
+
+ .opaque-overlay {position:absolute;
+                   top:0;
+                   left:0;
+                   height:100%;
+                   width:100%;
+                   background-color: rgba(0,0,0,0.05);
+ }  
+
+.footer{
+    height: 10px;
+}
+.social-networks{
+    text-align: center;
+     display:inline;
+}
+.social-networks li {
+    display:inline;
+}
+.social-networks i {
+    font-size: 120%;
+    margin: 8%;
+    padding: 2%;
+    color: #777777;
+}
+
+.btn-cta{font-weight:bold;
+         border-radius:20px;
+         width:160px;
+         }
