@@ -74,5 +74,35 @@ body { font-family: 'Roboto', sans-serif;;
 
 .btn-cta{font-weight:bold;
          border-radius:20px;
-         width:160px;
-         }
+         width:160px;}
+
+.page-header{margin-bottom:0;
+             border-bottom:0;
+             text-align:center;
+             }
+.page-header h2 {margin-top;0;
+
+                 
+}    
+
+.content-container{ padding-top:75px;
+                   padding-bottom:75px;
+                   }
+
+
+
+.block-divider{width:75px;
+               height:5px;
+               border:0;
+               background-color:#444;}
+
+.block-divider--short{width:35px;
+            }               
+.block-divider--orange{background-color: rgb(184, 230, 248);}     
+
+
+.container-wrapper{}
+
+.container-wrapper--blue{background-color:rgb(184, 230, 248);
+color:white;
+ }
