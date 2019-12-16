@@ -52,11 +52,11 @@ body { font-family: 'Roboto', sans-serif;;
                    left:0;
                    height:100%;
                    width:100%;
-                   background-color: rgba(0,0,0,0.05);
+                   background-color: rgba(0,0,0,0.0.6);
  }  
 
 .footer{
-    height: 10px;
+    height: 1px;
 }
 .social-networks{
     text-align: center;
@@ -66,9 +66,9 @@ body { font-family: 'Roboto', sans-serif;;
     display:inline;
 }
 .social-networks i {
-    font-size: 100%;
-    margin: 8%;
-    padding: 2%;
+    font-size:100%;
+    margin:8%;
+    padding:1%;
     color: #777777;
 }
 
