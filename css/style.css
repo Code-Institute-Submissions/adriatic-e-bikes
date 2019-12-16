@@ -15,14 +15,8 @@ body { font-family: 'Roboto', sans-serif;;
    animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards; }
-    @keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
-}
+  
+    
 
   .price{font-syle:italic;
                   color:white;}
@@ -72,7 +66,7 @@ body { font-family: 'Roboto', sans-serif;;
     display:inline;
 }
 .social-networks i {
-    font-size: 120%;
+    font-size: 100%;
     margin: 8%;
     padding: 2%;
     color: #777777;
