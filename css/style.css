@@ -59,9 +59,9 @@ body { font-family: 'Roboto', sans-serif;;
     height: 2px;
 }
 .social-networks {
-    text-align: center;
-     display:inline;
-     color:rgb(184, 230, 248);
+ text-align: center;
+  color:rgb(184, 230, 248);
+  list-style: none;
 }
 
 .btn-cta{font-weight:bold;
@@ -99,6 +99,10 @@ body { font-family: 'Roboto', sans-serif;;
 color:white;
  }
 
- .contact{background-color:rgb(9, 101, 138);
+ .contact{background-color:rgb(12, 62, 82);
            color:white;
-           padding-top: 10px;}
+           padding-top: 10px;
+           padding-bottom: 5px;
+           padding: 10px;
+           border:5px solid;
+            text-align: center;}
