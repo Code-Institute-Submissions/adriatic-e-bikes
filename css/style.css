@@ -12,7 +12,7 @@ body { font-family: 'Roboto', sans-serif;;
   align-items:center;
   justify-content:center;
   position:relative;
-   animation-name: hero-zoom;
+  animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards; }
   
@@ -107,4 +107,12 @@ color:white;
            border:5px solid;
             text-align: center;}
 
-.island{color:rgb(23, 120, 165);}            
+.island{color:rgb(23, 120, 165);}
+
+.blockquote{ color: rgb(23, 120, 165);
+             font-size: 75%; }     
+
+.feature{padding-top: 5px;
+           padding-bottom: 5px;
+           
+           border:5px solid;}                 
