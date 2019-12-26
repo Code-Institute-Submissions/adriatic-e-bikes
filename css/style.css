@@ -3,7 +3,7 @@ body { font-family: 'Roboto', sans-serif;;
 .alert-container{}
 
 .callout-container{height:100vh;
- background: url("../images/background.jpg") no-repeat bottom right fixed; 
+ background: url("../images/backgroundmain.jpg") no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
