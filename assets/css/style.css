@@ -25,14 +25,18 @@ body {font-family: 'Montserrat', sans-serif;
     
 }
 
+
 .navbar .navbar-nav a {font-weight: lighter;
+
                        color: #006994;
                       -webkit-box-shadow: 35px 35px 39px 0px rgba(0,105,148,1);
                       -moz-box-shadow: 35px 35px 39px 0px rgba(0,105,148,1);
                        box-shadow: 35px 35px 39px 0px rgba(0,105,148,1);
+                       
 }
 
-.navbar .navbar-nav a:hover{}
+.navbar .navbar-nav a:hover{
+}
 
 
 .navbar-text{color:#006994;            
@@ -40,6 +44,8 @@ body {font-family: 'Montserrat', sans-serif;
 
 .dropdown-menu{padding: 0;
                 }
+
+              
 /*end/Navbar*/
 
 
