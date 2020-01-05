@@ -4,33 +4,209 @@
 body {font-family: 'Montserrat', sans-serif;             
 }
 /*Navbar*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+body {font-family: 'Montserrat', sans-serif;
+      color:              
+}
+/*Navbar*/
 
 /*--------------------*/
 .navbar{margin-bottom: 0;
          width:100%;
-         background-color:#FEE8D1;
+         
          border:0;
+        
+
+         
 }
 .navbar .navbar-toggler{border:0;
+
 }
 .navbar .navbar-brand {font-weight: bold;
+                       color: #5fb3f9;
 }
 
 .navbar .navbar-nav a{font-weight:bold;
-                      text-align: center;
+                      text-align: center; 
+                       
+                                       
 }
-
+.navbar a{color:#5fb3f9;
+}
 .navbar .navbar-nav a:hover{transform: rotateX(360deg);
                             transition: 1s;                          
 }
 
 .dropdown:hover > .dropdown-menu {
     display: block;
+    
+   
 }
 .dropdown > .dropdown-toggle:active {
-    /*Without this, clicking will make it sticky*/
     pointer-events: none;
 }
+.navbartext{font-size: normal;
+
+font-weight: bold;
+
+}
+
+.navbar  .nav-link1 {color: #5fb3f9;
+                   text-decoration: none;
+                   }
+.navbar  .nav-link2{color:#60ead3;
+                  text-decoration: none;
+                  
+                  
+                  }
+.navbar  .nav-link3{color: #fda660;
+                   text-decoration: none;
+                   
+                  
+                   }
+.navbar  .nav-link4{color: #fd7b87;
+                   text-decoration: none;
+                   
+                 
+                   }
+.navbar  .nav-link5{color: #93c167;
+                text-decoration: none;
+                
+               
+                }
+
+.navbar .navbar-text{color: #93c167;
+                     
+                     
+                     }
+ 
+ .navbartext{font-size: normal;
+            width:100%;}
+
+ 
+/*end/Navbar*/
+
+
+
+.alert-container{}
+
+.callout-container{height:100vh;
+ 
+background: url('../images/heading.jpg') no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+   }
+  
+    
+
+  .price{font-syle:italic;
+                  color:white;}
+
+  .block-divider{width:75px;
+                 height:5px;
+                 border:0;
+                 background-color:grey:}                          
+
+ .jumbotron{background-color: transparent; }                           
+
+.quotes-container{}
+
+.features-container{}
+
+.jumbotron-header{color:white;
+                  font-weight: bold;
+                  margin-bottom:30px;
+                  font-size:150%;
+                  }
+
+.jumbotron small{font-size:100%;
+                  font-syle:italic;
+                  color:white;  } 
+
+.jumbotron .lead{margin:50px 0;
+                 color:rgb(218, 105, 71);
+                 }    
+
+
+ .opaque-overlay {position:absolute;
+                   top:0;
+                   left:0;
+                   height:100%;
+                   width:100%;
+                   background-color: rgba(0,0,0,0.0.6);
+ }  
+
+.footer{
+    height: 2px;
+}
+.social-networks {
+ text-align: center;
+  color:rgb(184, 230, 248);
+  list-style: none;
+}
+
+.btn-cta{font-weight:bold;
+         border-radius:20px;
+         width:160px;}
+
+.page-header{margin-bottom:0;
+             border-bottom:0;
+             text-align:center;
+             }
+.page-header h2 {margin-top;0;
+
+                 
+}    
+
+.content-container{ padding-top:75px;
+                   padding-bottom:75px;
+                   }
+
+
+
+.block-divider{width:75px;
+               height:5px;
+               border:0;
+               background-color:#444;}
+
+.block-divider--short{width:35px;
+            }               
+.block-divider--orange{background-color: rgb(184, 230, 248);}     
+
+
+.container-wrapper{}
+
+.container-wrapper--blue{background-color:rgb(184, 230, 248);
+color:white;
+ }
+
+ .contact{background-color:rgb(12, 62, 82);
+           color:white;
+           padding-top: 10px;
+           padding-bottom: 5px;
+           padding: 10px;
+           border:5px solid;
+            text-align: center;}
+
+.island{color:rgb(23, 120, 165);}
+
+.blockquote{ color: rgb(23, 120, 165);
+             font-size: 75%; }     
+
+.feature{padding-top: 5px;
+           padding-bottom: 5px;
+           
+           border:5px solid;}                 
+
+.bikes{  text-align: center;}           
 
 /*end/Navbar*/
 
