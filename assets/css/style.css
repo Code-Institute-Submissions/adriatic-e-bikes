@@ -3,47 +3,43 @@
 
 body {font-family: 'Montserrat', sans-serif;             
 }
-/*Navbar*/
+/*New Navbar*/
 
-
+/*--------------------*/
 .navbar {
     margin-bottom: 0;
-    width: 100%;
-    border:0;
-
-    
-    
-    
-}
-.navbar .navbar-toggler {
-    border: 0;
-    transition: .5s ease-in-out;
-}
-
-.navbar .navbar-brand {
-    font-weight: lighter;
+    width: 100%; 
+    background-color: #FEE8D1;
     
 }
 
+.navbar-brand{
+              
+}
 
-.navbar .navbar-nav a {font-weight: lighter;
+.navbar .navbar-toggler {border: 0;   
+}
 
-                       color: #006994;
+
+.navbar .navbar-nav a {
                       -webkit-box-shadow: 35px 35px 39px 0px rgba(0,105,148,1);
                       -moz-box-shadow: 35px 35px 39px 0px rgba(0,105,148,1);
                        box-shadow: 35px 35px 39px 0px rgba(0,105,148,1);
                        
 }
 
-.navbar .navbar-nav a:hover{
+.navbar .navbar-nav a:hover{transform: rotateX(360deg);
+                            transition: 1s;                          
 }
 
 
-.navbar-text{color:#006994;            
+.navbar-text{color:#006994;                               
 }
 
-.dropdown-menu{padding: 0;
-                }
+.nav-item{ 
+}
+.dropdown-menu{}
+
 
               
 /*end/Navbar*/
