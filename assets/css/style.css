@@ -3,45 +3,35 @@
 
 body {font-family: 'Montserrat', sans-serif;             
 }
-/*New Navbar*/
+/*Navbar*/
 
 /*--------------------*/
-.navbar {
-    margin-bottom: 0;
-    width: 100%; 
-    background-color: #FEE8D1;
-    
+.navbar{margin-bottom: 0;
+         width:100%;
+         background-color:#FEE8D1;
+         border:0;
+}
+.navbar .navbar-toggler{border:0;
+}
+.navbar .navbar-brand {font-weight: bold;
 }
 
-.navbar-brand{
-              
-}
-
-.navbar .navbar-toggler {border: 0;   
-}
-
-
-.navbar .navbar-nav a {
-                      -webkit-box-shadow: 35px 35px 39px 0px rgba(0,105,148,1);
-                      -moz-box-shadow: 35px 35px 39px 0px rgba(0,105,148,1);
-                       box-shadow: 35px 35px 39px 0px rgba(0,105,148,1);
-                       
+.navbar .navbar-nav a{font-weight:bold;
+                      text-align: center;
 }
 
 .navbar .navbar-nav a:hover{transform: rotateX(360deg);
                             transition: 1s;                          
 }
 
-
-.navbar-text{color:#006994;                               
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
 }
 
-.nav-item{ 
-}
-.dropdown-menu{}
-
-
-              
 /*end/Navbar*/
 
 
