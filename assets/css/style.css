@@ -8,46 +8,47 @@ body {font-family: 'Montserrat', sans-serif;
 
 
 body {font-family: 'Montserrat', sans-serif;
-      color:              
+                
 }
+
 /*Navbar*/
 
-/*--------------------*/
-.navbar{
-       
-       
 
-        
 
-         
+.navbar{margin-bottom: 0;
+        width: 100%;
+        border: 0;
+        background-color: #444;
 }
-.navbar .navbar-toggler{border:0;
-
+.navbar .navbar-toggler{border:solid;
+                        color:#5fb3f9;
+                        
+                        
 }
+
 .navbar .navbar-brand {font-weight: bold;
-                       color: #5fb3f9;
-                      
+                       color: #5fb3f9;                    
 }
 
 .navbar .navbar-nav a{font-weight:bold;
                       text-align: center;
-                      font-size: 110%;
+                      font-size: 110%;                                          
+}
 
-                                               
+.navbar a{color:#5fb3f9;      
 }
-.navbar a{color:#5fb3f9;
-         
-}
+
 .navbar .navbar-nav a:hover{transform: rotateX(360deg);
                             transition: 2s;                          
 }
 
 .dropdown:hover > .dropdown-menu {display: block; 
+                                  
+}
 
+.dropdown > .dropdown-toggle:active {pointer-events: none;                                  
 }
-.dropdown > .dropdown-toggle:active {pointer-events: none;
-                                     
-}
+
 .navbar .navbar-text{font-size: normal;
                      font-weight: bold;
                      color: #93c167;
@@ -57,6 +58,7 @@ body {font-family: 'Montserrat', sans-serif;
     background-color:#E8F9FF;
 }
  
+
 /*end/Navbar*/
 
 
@@ -66,9 +68,7 @@ body {font-family: 'Montserrat', sans-serif;
 .callout-container{height:100vh;
  
 background: url('../images/heading.jpg') no-repeat bottom right fixed;
-  -webkit-box-shadow: 0px 0px 16px 11px rgba(95,179,249,1);
--moz-box-shadow: 0px 0px 16px 11px rgba(95,179,249,1);
-box-shadow: 0px 0px 16px 11px rgba(95,179,249,1);
+
   background-size: cover;
   display:flex;
   align-items:center;
