@@ -3,17 +3,8 @@
 
 body {font-family: 'Montserrat', sans-serif;             
 }
-/*Navbar*/
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-
-
-body {font-family: 'Montserrat', sans-serif;
-                
-}
 
 /*Navbar*/
-
-
 
 .navbar{margin-bottom: 0;
         width: 100%;
@@ -46,31 +37,83 @@ body {font-family: 'Montserrat', sans-serif;
 .dropdown > .dropdown-toggle:active {pointer-events: none;                                  
 }
 
-.navbar .navbar-text{font-size: normal;
+.navbar .navbar-text{font-size: 80%;
                      font-weight: bold;
                      color: #93c167;
 }
 
-.navbar-nav .dropdown-menu {
-    background-color:#E8F9FF;
+.navbar-nav .dropdown-menu { background-color:#E8F9FF;
 }
  
 
 /*end/Navbar*/
 
+/*Heading*/
+
+/*Heading*/
+.heading-container{ height: 100vh;
+                    color:#E8F9FF;
+                     background: url('../images/heading.jpg') no-repeat bottom right fixed;
+                     -webkit-background-size: cover;
+                     -o-background-size: cover;
+                     background-size: cover;
+                     display:flex;
+                     align-items:center;
+                     justify-content:center;
+                     position:relative; 
+                     margin: 0;
+                     padding:0;                 
+}
+
+/*endHeading*/
+
+
+
+
+/*Explore*/
+.explore-container{background-color: #444;
+                   margin-bottom: 0;
+                   width: 100%;
+                   border: 0;
+                
+}
+.explore {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.explore i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.explore .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
+
+
+
+/*endExplore*/
+
 
 
 .alert-container{}
 
-.callout-container{height:100vh;
- 
-background: url('../images/heading.jpg') no-repeat bottom right fixed;
-
-  background-size: cover;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  position:relative;
+.heading-container{height:100vh;
+                   background: url('../images/heading.jpg') no-repeat bottom right fixed;
+                   background-size: cover;
+                   display:flex;
+                   align-items:center;
+                   justify-content:center;
+                 position:relative;
    }
   
     
