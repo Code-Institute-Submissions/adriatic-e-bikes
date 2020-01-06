@@ -18,7 +18,19 @@ body {font-family: 'Montserrat', sans-serif;
 }
 
 .navbar .navbar-brand {font-weight: bold;
-                       color: #5fb3f9;                    
+                     color: #5fb3f9;
+                     display: inline-block;
+                     vertical-align: middle;
+                     transform: translateZ(0);
+                     backface-visibility: hidden;
+                     -moz-osx-font-smoothing: grayscale;
+                     transition-duration: 0.3s;
+                     transition-property: transform;                    
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus,
+.navbar .navbar-brand:active {transform: scale(1.1);
 }
 
 .navbar .navbar-nav a{font-weight:bold;
@@ -68,8 +80,19 @@ body {font-family: 'Montserrat', sans-serif;
                      padding:0;                 
 }
 
+.heading .heading-text{ word-spacing: 10px;
+                        text-shadow: 3px 3px #444; 
+  }
 /*endHeading*/
 
+/*Intro*/
+.intro .intro-text{ margin-left: 500px;
+}
+#circle-cover-bg{
+    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png") no-repeat center center;
+    height:100%;
+    border-radius: 50%;}
+/*endIntro*/
 
 
 
