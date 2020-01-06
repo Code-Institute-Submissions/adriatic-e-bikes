@@ -13,10 +13,10 @@ body {font-family: 'Montserrat', sans-serif;
 /*Navbar*/
 
 /*--------------------*/
-.navbar{margin-bottom: 0;
-         width:100%;
-         
-         border:0;
+.navbar{
+       
+       
+
         
 
          
@@ -31,11 +31,14 @@ body {font-family: 'Montserrat', sans-serif;
 
 .navbar .navbar-nav a{font-weight:bold;
                       text-align: center;
-                      font-size: 80%; 
-                       
-                                       
+                      font-size: 110%;
+                               -webkit-box-shadow: -1px 0px 13px 5px rgba(95,179,249,1);
+-moz-box-shadow: -1px 0px 13px 5px rgba(95,179,249,1);
+box-shadow: -1px 0px 13px 5px rgba(95,179,249,1); 
+                                               
 }
 .navbar a{color:#5fb3f9;
+         
 }
 .navbar .navbar-nav a:hover{transform: rotateX(360deg);
                             transition: 1s;                          
@@ -50,33 +53,8 @@ body {font-family: 'Montserrat', sans-serif;
                      color: #93c167;
 }
 
-.navbar  .nav-link1 {color: #5fb3f9;
-                   text-decoration: none;
-                   }
-.navbar  .nav-link2{color:#60ead3;
-                  text-decoration: none;
-                  
-                  
-                  }
-.navbar  .nav-link3{color: #fda660;
-                   text-decoration: none;
-                   
-                  
-                   }
-.navbar  .nav-link4{color: #fd7b87;
-                   text-decoration: none;
-                   }
-.navbar  .nav-link5{color: #93c167;
-                text-decoration: none;
-                
-               
-                }
-
-.navbar .navbar-text{color: #93c167;
-                      }
- 
 .navbar-nav .dropdown-menu {
-    background-color:#3498db;
+    background-color:#ccd9ff;
 }
  
 /*end/Navbar*/
@@ -88,9 +66,9 @@ body {font-family: 'Montserrat', sans-serif;
 .callout-container{height:100vh;
  
 background: url('../images/heading.jpg') no-repeat bottom right fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  -webkit-box-shadow: 0px 0px 16px 11px rgba(95,179,249,1);
+-moz-box-shadow: 0px 0px 16px 11px rgba(95,179,249,1);
+box-shadow: 0px 0px 16px 11px rgba(95,179,249,1);
   background-size: cover;
   display:flex;
   align-items:center;
