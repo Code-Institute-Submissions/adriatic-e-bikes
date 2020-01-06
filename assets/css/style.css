@@ -20,8 +20,10 @@ body {font-family: 'Montserrat', sans-serif;
         border: 0;
         background-color: #444;
 }
-.navbar .navbar-toggler{border:solid;
-                        color:#5fb3f9;
+.navbar .navbar-toggler{
+                        background-color: #5fb3f9;}
+
+            
                         
                         
 }
