@@ -11,6 +11,9 @@ body {font-family: 'Montserrat', sans-serif;
         border: 0;
         background-color: #444;
 }
+.navbar i{
+   
+}
 .navbar .navbar-toggler{ background-color: #5fb3f9;                       
 }
 
@@ -80,7 +83,8 @@ body {font-family: 'Montserrat', sans-serif;
 .explore {
     text-align: center;
     margin-bottom: 40px;
-}
+    }
+
 
 .explore i {
     margin-bottom: 20px;
