@@ -41,13 +41,13 @@ body {font-family: 'Montserrat', sans-serif;
                             transition: 1s;                          
 }
 
-.dropdown:hover > .dropdown-menu { display: block;  
+.dropdown:hover > .dropdown-menu {display: block;  
 }
 .dropdown > .dropdown-toggle:active {pointer-events: none;
 }
 .navbar .navbar-text{font-size: normal;
-            font-weight: bold;
-            color: #93c167;
+                     font-weight: bold;
+                     color: #93c167;
 }
 
 .navbar  .nav-link1 {color: #5fb3f9;
@@ -73,11 +73,11 @@ body {font-family: 'Montserrat', sans-serif;
                 }
 
 .navbar .navbar-text{color: #93c167;
-                     
-                     
-                     }
+                      }
  
-
+.navbar-nav .dropdown-menu {
+    background-color:#3498db;
+}
  
 /*end/Navbar*/
 
