@@ -96,10 +96,10 @@ body {font-family: 'Montserrat', sans-serif;
 
 
 .intro-container .intro-main{font-weight: bold;
-                            
+                            margin-bottom: 20px;
                             color:#5fb3f9;
 
-                      }
+}
 .intro-container .intro-image{
                       border-style: solid;
     border-color:#cccccc;
@@ -109,7 +109,8 @@ body {font-family: 'Montserrat', sans-serif;
                      color: #5fb3f9;
 }           
 
-.intro-container .left-intro{}
+.intro-container .left-intro{text-align:center;}
+.intro-container .right-intro{text-align:center;}
 /*endIntro*/
 
 
