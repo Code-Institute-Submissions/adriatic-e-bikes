@@ -6,7 +6,9 @@ body {font-family: 'Montserrat', sans-serif;
 
 /*Navbar*/
 
-.navbar{margin-bottom: 0;
+.navbar{
+               
+                margin-bottom: 2px;
         width: 100%;
         border: 0;
         background-color: #444;
@@ -86,9 +88,9 @@ body {font-family: 'Montserrat', sans-serif;
 
 /*Intro*/
 
-.intro-container{margin-top: 10px;
+.intro-container{margin-top: 2px;
                
-                margin-bottom: 10px;
+                margin-bottom: 2px;
                 background-color:#E8F9FF;
                 }
 
