@@ -76,8 +76,8 @@ body {font-family: 'Montserrat', sans-serif;
                      align-items:center;
                      justify-content:center;
                      position:relative; 
-                     margin: 0;
-                     padding:0;                 
+                     margin: 2px;
+                     padding:2px;                 
 }
 
 .heading .heading-text{ word-spacing: 10px;
@@ -86,12 +86,19 @@ body {font-family: 'Montserrat', sans-serif;
 /*endHeading*/
 
 /*Intro*/
-.intro .intro-text{ margin-left: 500px;
-}
-#circle-cover-bg{
-    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png") no-repeat center center;
-    height:100%;
-    border-radius: 50%;}
+
+.intro-container{margin: 2px;
+                padding:2px;}
+
+
+.intro-container .intro-main{font-weight: bold;
+                             margin-top: 20px; 
+                             margin-bottom: 20px;
+                            color:#5fb3f9;
+
+                      }
+
+.intro-container .intro-text{ color: #444;}
 /*endIntro*/
 
 
