@@ -76,8 +76,7 @@ body {font-family: 'Montserrat', sans-serif;
                      align-items:center;
                      justify-content:center;
                      position:relative; 
-                     margin: 2px;
-                     padding:2px;                 
+                                    
 }
 
 .heading .heading-text{ word-spacing: 10px;
@@ -88,15 +87,14 @@ body {font-family: 'Montserrat', sans-serif;
 /*Intro*/
 
 .intro-container{margin-top: 10px;
-                padding:10px;
+               
                 margin-bottom: 10px;
                 background-color:#E8F9FF;
                 }
 
 
 .intro-container .intro-main{font-weight: bold;
-                             margin-top: 20px; 
-                             margin-bottom: 20px;
+                            
                             color:#5fb3f9;
 
                       }
@@ -107,19 +105,9 @@ body {font-family: 'Montserrat', sans-serif;
 
  .intro-container .intro-cres{font-weight: bold;
                      color: #5fb3f9;
-                     display: inline-block;
-                     vertical-align: middle;
-                     transform: translateZ(0);
-                     backface-visibility: hidden;
-                     -moz-osx-font-smoothing: grayscale;
-                     transition-duration: 0.3s;
-                     transition-property: transform; }  
+}           
 
-
- .intro-container .intro-cres:hover,
-.intro-container .intro-cres:focus,
-.intro-container .intro-cres:active {transform: scale(1.5);
-}                    
+.intro-container .left-intro{}
 /*endIntro*/
 
 
