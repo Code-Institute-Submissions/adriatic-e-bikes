@@ -16,7 +16,15 @@ body {font-family: 'Montserrat', sans-serif;
        
         width: 100%;
         border: 0;
-        background-color: #444;
+       
+
+       background: #444;
+	background: -moz-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
+	background: -webkit-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
+	background: linear-gradient(135deg, #444 0%, #3d8d75 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+
+
 }
 .navbar i{
    
@@ -111,7 +119,14 @@ body {font-family: 'Montserrat', sans-serif;
 
 .intro-container{margin-top: 2px;
                 margin-bottom: 2px;
-                background-color:#444;
+                      background: #444;
+	background: -moz-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
+	background: -webkit-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
+	background: linear-gradient(135deg, #444 0%, #3d8d75 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+
+
+
                 color:bisque;
 }
 
@@ -156,7 +171,15 @@ body {font-family: 'Montserrat', sans-serif;
 .packages-container{margin-top: 2px;
                     margin-bottom: 2px;
                     background-color:#444;
-                    color:bisque;  
+                    color:bisque; 
+                          background: #444;
+	background: -moz-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
+	background: -webkit-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
+	background: linear-gradient(135deg, #444 0%, #3d8d75 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+
+
+ 
                             
 }
 
@@ -183,6 +206,7 @@ body {font-family: 'Montserrat', sans-serif;
             border-radius:10px;
             width:120px;
             background-color:#5fb3f9;
+            
 }
 .btn--book:hover,
 .btn--book:active,
@@ -198,7 +222,15 @@ body {font-family: 'Montserrat', sans-serif;
 .quotes-container{margin-top: 2px;
                     margin-bottom: 2px;
                     background-color:#444;
-                    color:bisque;  
+                    color:bisque; 
+                          background: #444;
+	background: -moz-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
+	background: -webkit-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
+	background: linear-gradient(135deg, #444 0%, #3d8d75 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+
+
+ 
 }
 
 .quotes-container .quotes-main{font-weight: bold;
