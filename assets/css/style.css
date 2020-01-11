@@ -4,6 +4,10 @@
 body {font-family: 'Montserrat', sans-serif;             
 }
 
+.block-divider{
+               height:1px;
+               background-color:#5fb3f9;
+}
 /*Navbar*/
 
 .navbar{
@@ -72,7 +76,7 @@ body {font-family: 'Montserrat', sans-serif;
 
 /*Heading*/
 .heading-container{ height: 100vh;
-                    color:#E8F9FF;
+                    color:bisque;
                      background: url('../images/heading.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
@@ -84,7 +88,7 @@ body {font-family: 'Montserrat', sans-serif;
                      background-color:#E8F9FF;
   
     animation-name: heading-background;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
                                     
 }
@@ -106,9 +110,9 @@ body {font-family: 'Montserrat', sans-serif;
 /*Intro*/
 
 .intro-container{margin-top: 2px;
-               
                 margin-bottom: 2px;
-                background-color:#E8F9FF;
+                background-color:#444;
+                color:bisque;
 }
 
 
@@ -122,7 +126,7 @@ body {font-family: 'Montserrat', sans-serif;
 .intro-container .intro-image{
                      border-style: solid;
                     border-color: #5fb3f9;
-                     border-width: 15px;
+                     border-width: 5px;
 
   }
 
@@ -151,7 +155,8 @@ body {font-family: 'Montserrat', sans-serif;
 /*Packages*/
 .packages-container{margin-top: 2px;
                     margin-bottom: 2px;
-                    background-color:#E8F9FF;   
+                    background-color:#444;
+                    color:bisque;  
                             
 }
 
@@ -162,7 +167,10 @@ body {font-family: 'Montserrat', sans-serif;
                                                            
 }
 
-
+.packages-container img{border-style: solid;
+                    border-color: #5fb3f9;
+                     border-width: 5px;
+  }
 
 
 
@@ -185,9 +193,12 @@ body {font-family: 'Montserrat', sans-serif;
 
 /*---endButtons--*/
 
+
+/*Quotes*/
 .quotes-container{margin-top: 2px;
                     margin-bottom: 2px;
-                    background-color:#E8F9FF;   
+                    background-color:#444;
+                    color:bisque;  
 }
 
 .quotes-container .quotes-main{font-weight: bold;
@@ -196,3 +207,11 @@ body {font-family: 'Montserrat', sans-serif;
                                   color:#5fb3f9;
                                                            
 }
+
+ .quotes-container img {border-style: solid;
+                    border-color: #5fb3f9;
+                     border-width: 5px;
+ }
+
+ .quotes-container p {font-size:15px;}                     
+/*--endQuotes*/
