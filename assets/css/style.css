@@ -328,7 +328,7 @@ text-align:center;
 /*Contact.html*/
 
 
-.container-contact {background: url('../images/contactbackground.jpeg') no-repeat bottom right fixed;
+.contact-container {background: url('../images/contactbackground.jpeg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
@@ -337,28 +337,43 @@ text-align:center;
                      justify-content:center;
                      position:relative; 
                      background-color:#E8F9FF;
+                     
+                     
 }
 
-.container-contact .contact-main{font-weight: bold;
-                            padding:15px;
-                            margin-bottom: 15px;
+.contact-container .contact-main{font-weight: bold;
+                            padding:100px;
+                            margin-bottom: 50px;
+                            
                             color:#5fb3f9;
                             font-size:25px;
                             text-shadow: 3px 3px #444; 
 
 }
-.container-contact .btn-send{font-size:15px;
+.contact-container .btn-send{font-size:15px;
             font-weight:bold;
             border-radius:10px;
-            width:120px;
+            width:100px;
             background-color:#5fb3f9;
+            
+            
             
 }
 .btn-send:hover,
 .btn-send,
 .btn-send:focus,
 .btn-send:active:focus{background-color:#93c167;
+ 
+                            margin-bottom: 300px;
 }
+.contact-container .form-control{font-size: 20px;
+   padding: 15px 20px;
+   width:500px;
+   	background: -moz-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
+	background: -webkit-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
+	background: linear-gradient(135deg, #444 0%, #3d8d75 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );}
+
 
 /*--Heading2*/
 .heading2{text-align: center;
