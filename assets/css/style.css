@@ -86,7 +86,7 @@ body {font-family: 'Montserrat', sans-serif;
 .heading{text-align: center;}
 .heading-container{ height: 100vh;
                     color:bisque;
-                     background: url('../images/heading.jpg') no-repeat bottom right fixed;
+                     background: url('../images/ebikeheading.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
@@ -142,8 +142,8 @@ body {font-family: 'Montserrat', sans-serif;
 
 .intro-container .intro-image{
                      border-style: solid;
-                    border-color: #5fb3f9;
-                     border-width: 5px;
+                    border-color: black;
+                     border-width: 2px;
 
   }
 
@@ -247,9 +247,7 @@ body {font-family: 'Montserrat', sans-serif;
                                                            
 }
 
- .quotes-container img {border-style: solid;
-                    border-color: #5fb3f9;
-                     border-width: 5px;
+ .quotes-container img {
  }
 
  .quotes-container p {font-size:15px;}   
@@ -362,12 +360,72 @@ text-align:center;
 .btn-send:active:focus{background-color:#93c167;
 }
 
-.container-contact {
-      max-width: 1920px;
-      width: 100%;
+/*--Heading2*/
+.heading2{text-align: center;
+ }
+
+.heading2-container{ height: 100vh;
+                    color:bisque;
+                     background: url('../images/manonhill.jpeg') no-repeat bottom right fixed;
+                     -webkit-background-size: cover;
+                     -o-background-size: cover;
+                     background-size: cover;
+                     display:flex;
+                     align-items:center;
+                     justify-content:center;
+                     position:relative; 
+                     background-color:#E8F9FF;
+  
+    animation-name: heading-background;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+                                    
+}
+@keyframes heading-background {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+.heading2 .heading2-text{word-spacing: 10px;
+                      text-shadow: 3px 3px #444; 
 }
 
- @media (min-width: 100;)
-    .container-contact {
-          width: 1920px;
+/*--Heading2*/
+
+
+/*heading3*/
+.heading3{text-align: center;
+ }
+
+.heading3-container{ height: 100vh;
+                    color:bisque;
+                     background: url('../images/bikeonthetop.jpg') no-repeat bottom right fixed;
+                     -webkit-background-size: cover;
+                     -o-background-size: cover;
+                     background-size: cover;
+                     display:flex;
+                     align-items:center;
+                     justify-content:center;
+                     position:relative; 
+                     background-color:#E8F9FF;
+  
+    animation-name: heading-background;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+                                    
+}
+@keyframes heading-background {
+    from{
+        transform: scale(0.9);
     }
+    to{
+        transform: scale(1);
+    }
+}
+.heading3 .heading3-text{word-spacing: 10px;
+                      text-shadow: 3px 3px #444; 
+}
+/*heading3*/
