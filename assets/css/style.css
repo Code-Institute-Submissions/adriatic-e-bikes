@@ -89,6 +89,7 @@ body {font-family: 'Montserrat', sans-serif;
 .heading-container{ height: 100vh;
                     color:bisque;
                      background: url('../images/ebikeheading.jpg') no-repeat bottom right fixed;
+                   
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
@@ -464,17 +465,22 @@ text-align:center;
 }
 
 
-.intro-container .island-main{font-weight: bold;
-                            padding:15px;
-                            margin-bottom: 15px;
+.island-container .island-main{font-weight: bold;
+                            padding:20px;
+                            margin-bottom: 20px;
                             color:#5fb3f9;
                             font-size:25px;
                             
 
 }
+.island-container .island-text{ padding:20px;
+                            margin-bottom: 20px;
+                            }
+
 .island-brac-container{
 height: 100vh;
                     color:bisque;
+                    
                      background: url('../images/brachtml.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
@@ -497,4 +503,18 @@ height: 100vh;
     to{
         transform: scale(1);
     }
+}
+
+.brac1-container{ height: 100vh;
+                    color:bisque;
+                     background: url('../images/brac1.jpg') no-repeat bottom right fixed;
+                   
+                     -webkit-background-size: cover;
+                     -o-background-size: cover;
+                     background-size: cover;
+                     display:flex;
+                     align-items:center;
+                     justify-content:center;
+                     position:relative; 
+                     background-color:#E8F9FF;
 }
