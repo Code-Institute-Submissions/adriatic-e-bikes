@@ -86,6 +86,8 @@ body {font-family: 'Montserrat', sans-serif;
 .heading{text-align: center;
 }
 
+.heading-container .heading-button{padding:25px;}
+
 .heading-container{ height: 100vh;
                     color:bisque;
                      background: url('../images/ebikeheading4.jpg') no-repeat bottom right fixed;
@@ -136,6 +138,7 @@ body {font-family: 'Montserrat', sans-serif;
 }
 
 
+
 .intro-container .intro-main{font-weight: bold;
                             padding:15px;
                             margin-bottom: 15px;
@@ -166,6 +169,7 @@ body {font-family: 'Montserrat', sans-serif;
 }
 
 .intro-container .intro-text{padding:15px;
+
 }    
 
 /*endIntro*/
@@ -376,7 +380,7 @@ text-align:center;
 	background: linear-gradient(135deg, #444 0%, #3d8d75 100%);
  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );}
 
-
+.contact-container .contact-button{padding:25px;}
 /*--Heading2*/
 .heading2{text-align: center;
  }
@@ -419,7 +423,7 @@ text-align:center;
 
 .heading3-container{ height: 100vh;
                     color:bisque;
-                     background: url('../images/ebikeheading5.jpg') no-repeat bottom right fixed;
+                     background: url('../images/jump.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
