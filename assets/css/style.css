@@ -524,3 +524,167 @@ height: 100vh;
                      position:relative; 
                      background-color:#E8F9FF;
 }
+
+/*Cres*/
+.cres-container{ height: 100vh;
+                    color:bisque;
+                     background: url('../images/creshtml.jpg') no-repeat bottom right fixed;
+                     -webkit-background-size: cover;
+                     -o-background-size: cover;
+                     background-size: cover;
+                     display:flex;
+                     align-items:center;
+                     justify-content:center;
+                     position:relative; 
+                     background-color:#E8F9FF;
+  
+    animation-name: heading-background;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+                                    
+}
+@keyframes heading-background {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+.cres1-container{height: 100vh;
+                    color:bisque;
+                     background: url('../images/cres1html.jpeg') no-repeat bottom right fixed;
+                     -webkit-background-size: cover;
+                     -o-background-size: cover;
+                     background-size: cover;
+                     display:flex;
+                     align-items:center;
+                     justify-content:center;
+                     position:relative; 
+                     background-color:#E8F9FF;
+  
+    animation-name: heading-background;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+                                    
+}
+@keyframes heading-background {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1);
+    }
+} 
+
+/*endCres*/
+
+
+/*Krk*/
+
+.krk-container{ height: 100vh;
+                    color:bisque;
+                     background: url('../images/krkhtml.jpeg') no-repeat bottom right fixed;
+                     -webkit-background-size: cover;
+                     -o-background-size: cover;
+                     background-size: cover;
+                     display:flex;
+                     align-items:center;
+                     justify-content:center;
+                     position:relative; 
+                     background-color:#E8F9FF;
+  
+    animation-name: heading-background;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+                                    
+}
+@keyframes heading-background {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+.krk1-container{height: 100vh;
+                    color:bisque;
+                     background: url('../images/krk1html.jpeg') no-repeat bottom right fixed;
+                     -webkit-background-size: cover;
+                     -o-background-size: cover;
+                     background-size: cover;
+                     display:flex;
+                     align-items:center;
+                     justify-content:center;
+                     position:relative; 
+                     background-color:#E8F9FF;
+  
+    animation-name: heading-background;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+                                    
+}
+@keyframes heading-background {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+/*endKrk*/
+
+/*Dugiotok*/
+
+.dugiotok-container{ height: 100vh;
+                    color:bisque;
+                     background: url('../images/dugiotokhtml.jpg') no-repeat bottom right fixed;
+                     -webkit-background-size: cover;
+                     -o-background-size: cover;
+                     background-size: cover;
+                     display:flex;
+                     align-items:center;
+                     justify-content:center;
+                     position:relative; 
+                     background-color:#E8F9FF;
+  
+    animation-name: heading-background;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+                                    
+}
+@keyframes heading-background {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+.dugiotok1-container{height: 100vh;
+                    color:bisque;
+                     background: url('../images/dugiotok2html.jpeg') no-repeat bottom right fixed;
+                     -webkit-background-size: cover;
+                     -o-background-size: cover;
+                     background-size: cover;
+                     display:flex;
+                     align-items:center;
+                     justify-content:center;
+                     position:relative; 
+                     background-color:#E8F9FF;
+  
+    animation-name: heading-background;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+                                    
+}
+@keyframes heading-background {
+    from{
+        transform: scale(0.9);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+/*endDugiotok
