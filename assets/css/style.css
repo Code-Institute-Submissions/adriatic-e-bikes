@@ -9,18 +9,15 @@ body {font-family: 'Montserrat', sans-serif;
 
 .block-divider{
                height:1px;
-               background-color:#5fb3f9;
+               background-color: #33ccff;
 }
 /*Navbar*/
 
 .navbar{ margin-bottom: 2px;
        width: 100%;
        border: 0;
-       background: #444;
-	     background: -moz-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-     	background: -webkit-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-     	background: linear-gradient(135deg, #444 0%, #3d8d75 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+       background: #484848;
+	     ;
 }
 
 .navbar .navbar-toggler{ background-color: #5fb3f9;                                         }
@@ -80,9 +77,11 @@ body {font-family: 'Montserrat', sans-serif;
 .heading-container .heading-button{padding:25px;
 }
 
-.heading-container{ height: 100vh;
-                    color:bisque;
-                     background: url('../images/ebikeheading4.jpg') no-repeat bottom right fixed;
+.heading-container{ height: 80vh;
+ 
+  
+                    color:#E8F9FF;
+                     background: url('../images/headingHD.jpeg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
@@ -105,6 +104,9 @@ body {font-family: 'Montserrat', sans-serif;
         transform: scale(1);
     }
 }
+
+
+
 .heading .heading-text{word-spacing: 10px;
                        text-shadow: 3px 3px #444; 
 }
@@ -116,12 +118,8 @@ body {font-family: 'Montserrat', sans-serif;
 
 .intro-container{margin-top: 2px;
                 margin-bottom: 2px;
-                background: #444;
-	              background: -moz-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-               	background: -webkit-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-               	background: linear-gradient(135deg, #444 0%, #3d8d75 100%);
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87',endColorstr='#5fc3e4', GradientType=1 );
-                color:bisque;
+               color:black;
+	              background: #484848;
 }
 
 .intro-container .intro-main{font-weight: bold;
@@ -165,11 +163,7 @@ body {font-family: 'Montserrat', sans-serif;
                     margin-bottom: 2px;
                     background-color:#444;
                     color:bisque; 
-                    background: #444;
-	                  background: -moz-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-	                  background: -webkit-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-                  	background: linear-gradient(135deg, #444 0%, #3d8d75 100%);
-                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );                    
+                    background: #4848481;                    
 }
 
 .packages-container .packages-main{font-weight: bold;
