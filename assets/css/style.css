@@ -81,7 +81,7 @@ body {font-family: 'Montserrat', sans-serif;
 
 .heading-container{ height: 90vh;
                     color:#E8F9FF;
-                     background: url('../images/ebikeheading.jpg') no-repeat bottom right fixed;
+                     background: url('../images/1HD.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: center;
                      -o-background-size: center;
                      background-size: cover;
@@ -321,7 +321,7 @@ font-size:90%;
 .btn-send:hover,
 .btn-send,
 .btn-send:focus,
-.btn-send:active:focus{background-color:#93c167;
+.btn-send:active:focus{background-color:#003955;
                        margin-bottom: 400px;
 }
 
@@ -724,14 +724,14 @@ font-size:90%;
 
 
 .home-container{  padding:5px;
-                          margin-bottom: 5px;
+                          
                  background-color: #004774;
                  
 }
 
 .home-container .home-main {color:white;
                           padding:5px;
-                          margin-bottom: 5px;
+                          
                           
                           font-size:15px;
                                                    
