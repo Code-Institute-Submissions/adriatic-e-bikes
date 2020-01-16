@@ -4,32 +4,34 @@ html {
   scroll-behavior: smooth;
 }
 
-body {font-family: 'Montserrat', sans-serif;             
+body {font-family: 'Montserrat', sans-serif;
+            
 }
 
 .block-divider{
                height:1px;
-               background-color: #33ccff;
+               background-color: #003955;
 }
 /*Navbar*/
 
-.navbar{ margin-bottom: 2px;
-       width: 100%;
-       border: 0;
-       background: #484848;
-	     ;
+.navbar{
+        width: 100%;
+        border: 0;
+        background-color:#003955;
+	     
 }
 
-.navbar .navbar-toggler{ background-color: #5fb3f9;                                         }
+.navbar .navbar-toggler{background-color: #5fb3f9;                                         }
 
-.navbar .navbar-brand {font-weight: bold;
-                     color: #5fb3f9;
-                     display: inline-block;
-                     vertical-align: middle;
-                     transform: translateZ(0);
-                     backface-visibility: hidden;
-                     transition-duration: 0.3s;
-                     transition-property: transform;                    
+.navbar .navbar-brand {
+                      font-size: 120%;
+                      color:#5fb3f9;
+                      display: inline-block;
+                      vertical-align: middle;
+                      transform: translateZ(0);
+                      backface-visibility: hidden;
+                      transition-duration: 0.3s;
+                      transition-property: transform;                    
 }
 
 .navbar .navbar-brand:hover,
@@ -37,12 +39,12 @@ body {font-family: 'Montserrat', sans-serif;
 .navbar .navbar-brand:active {transform: scale(1.1);
 }
 
-.navbar .navbar-nav a{font-weight:bold;
+.navbar .navbar-nav a{
                       text-align: center;
                       font-size: 110%;                                          
 }
 
-.navbar a{color:#5fb3f9;      
+.navbar a{color:white;     
 }
 
 .navbar .navbar-nav a:hover{transform: rotateX(360deg);
@@ -56,15 +58,15 @@ body {font-family: 'Montserrat', sans-serif;
 .dropdown > .dropdown-toggle:active {pointer-events: none;                                  
 }
 
-.navbar .navbar-text{font-size: 80%;
+.navbar .navbar-text{font-size:120%;
                      font-weight: bold;
-                     color: #93c167;
+                     color: #5fb3f9;
 }
 
-.navbar-nav .dropdown-menu { background-color:#E8F9FF;
+.navbar-nav .dropdown-menu { background-color:#5fb3f9;
 }
 
- 
+
 
 /*end/Navbar*/
 
@@ -77,13 +79,11 @@ body {font-family: 'Montserrat', sans-serif;
 .heading-container .heading-button{padding:25px;
 }
 
-.heading-container{ height: 80vh;
- 
-  
+.heading-container{ height: 90vh;
                     color:#E8F9FF;
-                     background: url('../images/headingHD.jpeg') no-repeat bottom right fixed;
-                     -webkit-background-size: cover;
-                     -o-background-size: cover;
+                     background: url('../images/ebikeheading.jpg') no-repeat bottom right fixed;
+                     -webkit-background-size: center;
+                     -o-background-size: center;
                      background-size: cover;
                      display:flex;
                      align-items:center;
@@ -93,9 +93,21 @@ body {font-family: 'Montserrat', sans-serif;
                      animation-name: heading-background;
                      animation-duration: 2s;
                      animation-fill-mode: forwards;
+                     background-position:  center;
+                     
+                     
                                     
 }
 
+@media (min-width: 992px) {
+    .heading-container {background-repeat:no-repeat;
+    background-size:2000px;
+        
+        
+    }
+}
+
+ 
 @keyframes heading-background {
     from{
         transform: scale(0.9);
@@ -108,7 +120,8 @@ body {font-family: 'Montserrat', sans-serif;
 
 
 .heading .heading-text{word-spacing: 10px;
-                       text-shadow: 3px 3px #444; 
+                      font-size: 300%;
+                      text-shadow: 3px 3px #444; 
 }
 /*endHeading*/
 
@@ -116,40 +129,27 @@ body {font-family: 'Montserrat', sans-serif;
 
 /*Intro*/
 
-.intro-container{margin-top: 2px;
-                margin-bottom: 2px;
-               color:black;
-	              background: #484848;
+.intro-container{color:white;
+	               background-color: #004774;
+                 padding:15px;
 }
 
-.intro-container .intro-main{font-weight: bold;
-                            padding:15px;
+.intro-container .intro-main{font-size:25px;
+                            padding:10px;
                             margin-bottom: 15px;
-                            color:#5fb3f9;                          
-                            font-size:25px;
-
+                            color:white;                                                
 }
 
-.intro-container .intro-image{border-style: solid;
-                              border-color: black;
-                              border-width: 2px;
-  }
+
 
  
                      
-}           
-
-.intro-container .left-intro{text-align:center;
-                             margin-bottom: 20px;  
-}
 
 
-.intro-container .right-intro{text-align:center;
-                              margin-bottom: 20px;
-}
+
 
 .intro-container .intro-text{padding:15px;
-
+                             font-size:90%;
 }    
 
 /*endIntro*/
@@ -159,26 +159,26 @@ body {font-family: 'Montserrat', sans-serif;
 
 /*Packages*/
 
-.packages-container{margin-top: 2px;
-                    margin-bottom: 2px;
-                    background-color:#444;
-                    color:bisque; 
-                    background: #4848481;                    
+.packages-container{
+                    background-color: #004774;
+                    color:white;
+                                      
 }
 
-.packages-container .packages-main{font-weight: bold;
+.packages-container .packages-main{font-size:25px;
                                    padding:15px;
                                    margin-bottom: 15px;
-                                   color:#5fb3f9;
-                                   font-size:25px;
-                                                           
+                                   color:white;
+                                                                                            
 }
 
-.packages-container img{border-style: solid;
-                        border-color: #5fb3f9;
-                       border-width: 5px;
-                       margin-bottom: 20px;
+.packages-container img{ margin-bottom: 20px;
 }
+
+.packages-container .packages-text{padding:15px;
+font-size:90%;
+}
+
 
 /*endPackages*/
 
@@ -194,31 +194,25 @@ body {font-family: 'Montserrat', sans-serif;
 .btn--book:hover,
 .btn--book:active,
 .btn--book:focus,
-.btn--book:active:focus{background-color:#93c167;
+.btn--book:active:focus{background-color:#003955;
 }
 
 /*endButtons*/
 
 
 /*Quotes*/
-.quotes-container{margin-top: 2px;
-                  margin-bottom: 2px;
-                  background-color:#444;
-                  color:bisque;               
-                	background: -moz-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-                	background: -webkit-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-                  background: linear-gradient(135deg, #444 0%, #3d8d75 100%);
-                  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
-
+.quotes-container{
+                  background-color:#299ad6;
+                  color:white;            
 }
 
 .quotes-container{padding: 20px;
 }
 
-.quotes-container .quotes-main{font-weight: bold;
+.quotes-container .quotes-main{
                                padding:15px;
                                margin-bottom: 15px;
-                               color:#5fb3f9;
+                               color:white;
                                font-size:25px;                                                         
 }
 
@@ -234,25 +228,21 @@ body {font-family: 'Montserrat', sans-serif;
 
 /*Footer*/
 
-.footer-container { margin-top: 2px;
-                    margin-bottom: 2px;
-                    background-color:#444;
-                    color:bisque; 
-                    background: #444;
-                  	background: -moz-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-                  	background: -webkit-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-                  	background: linear-gradient(135deg, #444 0%, #3d8d75 100%);
-                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+.footer-container { 
+                    background-color: #003955;
+                    color:white;
+                    
 }
 
-.footer-container .footer-main {font-weight: bold;
+.footer-container .footer-main {
                                 padding:15px;
                                  margin-bottom: 15px;
-                                 color:#5fb3f9;
+                                 
                                  font-size:25px;
                                   
 }
 
+.footer-container p{font-size:90%}
 /*endFooter*/
 
 /*Social*/
@@ -278,23 +268,20 @@ body {font-family: 'Montserrat', sans-serif;
                     -o-transition:all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover{background: #93c167;
+.social-links li a i:hover{background: #003955;
 }
 
 #footer-details{padding:20px;
 }
 
+
 /*endSocial*/
 
 /*FormModal*/
 
-.modal {background-color:#444;
-       color:#5fb3f9; 
-       background: #444;
-       background: -moz-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-    	background: -webkit-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-     	background: linear-gradient(135deg, #444 0%, #3d8d75 100%);
-       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87',endColorstr='#5fc3e4', GradientType=1 );
+.modal{background-color:#444;
+      color:#5fb3f9; 
+      background-color: #5fb3f9;;
 }
 
 
@@ -340,10 +327,7 @@ body {font-family: 'Montserrat', sans-serif;
 
 
 .contact-container .form-control{color: white;
-                                 	background: -moz-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-                                 	background: -webkit-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-                                 	background: linear-gradient(135deg, #444 0%, #3d8d75 100%);
-                                  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+                                 	 background-color: #5fb3f9;
 }
 
 .contact-container .contact-button{padding:25px;
@@ -358,7 +342,7 @@ body {font-family: 'Montserrat', sans-serif;
  }
 
 .heading2-container{ height: 100vh;
-                     color:bisque;
+                     color:white;
                      background: url('../images/manonhill3.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
@@ -396,7 +380,7 @@ body {font-family: 'Montserrat', sans-serif;
  }
 
 .heading3-container{ height: 100vh;
-                    color:bisque;
+                    color:white;
                      background: url('../images/jump.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
@@ -421,40 +405,36 @@ body {font-family: 'Montserrat', sans-serif;
 }
 
 .heading3 .heading3-text{word-spacing: 10px;
-                        text-shadow: 3px 3px #444; 
+                         text-shadow: 3px 3px #444; 
 }
 /*endHeading3*/
 
 
 /*Island*/
                  
-.island-container{margin-top: 2px;
-                 margin-bottom: 2px;
+.island-container{padding:25px;
                  text-align:center;
-                 background: #444;
-                 color:bisque;
-              	background: -moz-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-              	background: -webkit-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-              	background: linear-gradient(135deg, #444 0%, #3d8d75 100%);
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );              
+                 background: #004774;
+                 color:white;
+                           
 }
 
 
 .island-container .island-main{font-weight: bold;
-                              padding:20px;
-                              margin-bottom: 20px;
-                              color:#5fb3f9;
-                              font-size:25px;                            
+                               padding:25px;
+                              
+                              
+                               font-size:25px;                            
 }
 
-.island-container .island-text{ padding:20px;
+.island-container .island-text{ padding:25px;
                                 margin-bottom: 20px;
 }
 
 /*Brac*/
 
 .brac-container{height: 60vh;
-               color:bisque;
+               color:white;
                background: url('../images/brachtml.jpg') no-repeat bottom right fixed;
                -webkit-background-size: cover;
                -o-background-size: cover;
@@ -467,7 +447,7 @@ body {font-family: 'Montserrat', sans-serif;
  }
 
 .brac1-container{ height: 60vh;
-                   color:bisque;
+                  color:white;
                    background: url('../images/brachtml1.jpg') no-repeat bottom right fixed; -webkit-background-size: cover;
                   -o-background-size: cover;
                    background-size: cover;
@@ -483,7 +463,7 @@ body {font-family: 'Montserrat', sans-serif;
 
 /*Cres*/
 .cres-container{ height: 60vh;
-                 color:bisque;
+                 color:white;
                  background: url('../images/creshtml.jpg') no-repeat bottom right fixed;
                 -webkit-background-size: cover;
                  -o-background-size: cover;
@@ -495,7 +475,7 @@ body {font-family: 'Montserrat', sans-serif;
                  background-color:#E8F9FF;
 }
 .cres1-container{height: 60vh;
-                 color:bisque;
+                 color:white;
                  background: url('../images/cres1html.jpg') no-repeat bottom right fixed;
                  -webkit-background-size: cover;
                   -o-background-size: cover;
@@ -503,8 +483,8 @@ body {font-family: 'Montserrat', sans-serif;
                    display:flex;
                    align-items:center;
                    justify-content:center;
-                    position:relative; 
-                    background-color:#E8F9FF;
+                   position:relative; 
+                   background-color:#E8F9FF;
 }
 /*endCres*/
 
@@ -512,7 +492,7 @@ body {font-family: 'Montserrat', sans-serif;
 /*Krk*/
 
 .krk-container{height: 60vh;
-               color:bisque;
+               color:white;
                background: url('../images/krkhtml.jpeg') no-repeat bottom right fixed;
               -webkit-background-size: cover;
              -o-background-size: cover;
@@ -524,7 +504,7 @@ body {font-family: 'Montserrat', sans-serif;
               background-color:#E8F9FF; 
 }
 .krk1-container{height: 60vh;
-                color:bisque;
+                color:white;
                 background: url('../images/krk1html.jpg') no-repeat bottom right fixed;
                 -webkit-background-size: cover;
                 -o-background-size: cover;
@@ -541,7 +521,7 @@ body {font-family: 'Montserrat', sans-serif;
 /*Dugiotok*/
 
 .dugiotok-container{ height: 60vh;
-                     color:bisque;
+                     color:white;
                      background: url('../images/dugiotokhtml1.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
@@ -554,7 +534,7 @@ body {font-family: 'Montserrat', sans-serif;
   
 }
 .dugiotok1-container{height: 60vh;
-                     color:bisque;
+                     color:white;
                      background: url('../images/dugiotok2html.jpeg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
@@ -569,7 +549,7 @@ body {font-family: 'Montserrat', sans-serif;
 
 /*Hvar*/
 .hvar-container{ height: 60vh;
-                 color:bisque;
+                 color:white;
                  background: url('../images/hvarhtml.jpg') no-repeat bottom right fixed;
                  -webkit-background-size: cover;
                  -o-background-size: cover;
@@ -582,7 +562,7 @@ body {font-family: 'Montserrat', sans-serif;
   
 }
 .hvar1-container{height: 60vh;
-                color:bisque;
+                color:white;
                background: url('../images/hvar1html.jpeg') no-repeat bottom right fixed;
                -webkit-background-size: cover;
                -o-background-size: cover;
@@ -598,7 +578,7 @@ body {font-family: 'Montserrat', sans-serif;
 
 /*Pag*/
 .pag-container{ height: 60vh;
-               color:bisque;
+               color:white;
                background: url('../images/paghtml.jpg') no-repeat bottom right fixed;
                -webkit-background-size: cover;
                -o-background-size: cover;
@@ -612,7 +592,7 @@ body {font-family: 'Montserrat', sans-serif;
 }
 
 .pag1-container{height: 60vh;
-               color:bisque;
+               color:white;
                background: url('../images/pag1html.jpg') no-repeat bottom right fixed;
               -webkit-background-size: cover;
                -o-background-size: cover;
@@ -628,7 +608,7 @@ body {font-family: 'Montserrat', sans-serif;
 
 /*Korcula*/
 .korcula-container{ height: 60vh;
-                     color:bisque;
+                     color:white;
                      background: url('../images/korculahtml.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
@@ -657,7 +637,7 @@ body {font-family: 'Montserrat', sans-serif;
 
 /*Mljet*/
 .mljet-container{ height: 60vh;
-                    color:bisque;
+                    color:white;
                      background: url('../images/mljethtml.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
@@ -670,7 +650,7 @@ body {font-family: 'Montserrat', sans-serif;
   
 }
 .mljet1-container{height: 60vh;
-                    color:bisque;
+                    color:white;
                      background: url('../images/mljet1html.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
@@ -685,7 +665,7 @@ body {font-family: 'Montserrat', sans-serif;
 
 /*Vis*/
 .vis-container{ height: 60vh;
-                    color:bisque;
+                    color:white;
                      background: url('../images/vishtml.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
@@ -698,7 +678,7 @@ body {font-family: 'Montserrat', sans-serif;
   
 }
 .vis1-container{     height: 60vh;
-                     color:bisque;
+                     color:white;
                      background: url('../images/vis1html.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
@@ -713,7 +693,7 @@ body {font-family: 'Montserrat', sans-serif;
 
 /*Rab*/
 .rab-container{     height: 60vh;
-                    color:bisque;
+                    color:white;
                      background: url('../images/rabhtml.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
@@ -726,7 +706,7 @@ body {font-family: 'Montserrat', sans-serif;
   
 }
 .rab1-container{    height: 60vh;
-                    color:bisque;
+                    color:white;
                      background: url('../images/rab1html.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
@@ -740,25 +720,20 @@ body {font-family: 'Montserrat', sans-serif;
 
 /*endRab*/
 
-/*Home*/
+/*Jump to Top*/
 
 
-.home-container{margin-top: 1px;
-                 margin-bottom: 1px;  
-                 background-color:#444;
-                  color:bisque; 
-                  background: #444;
-                	background: -moz-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-                	background: -webkit-linear-gradient(-45deg, #444 0%, #3d8d75 100%);
-                	background: linear-gradient(135deg, #444 0%, #3d8d75 100%);
-                  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+.home-container{  padding:5px;
+                          margin-bottom: 5px;
+                 background-color: #004774;
+                 
 }
 
-.home-container .home-main {font-weight: bold;
+.home-container .home-main {color:white;
                           padding:5px;
                           margin-bottom: 5px;
-                          color:#5fb3f9;
-                          font-size:20px;
+                          
+                          font-size:15px;
                                                    
 }
 
@@ -766,4 +741,4 @@ body {font-family: 'Montserrat', sans-serif;
   text-decoration: none;
 }
 
-/*endHome*/
+/*Jump To Top*/
