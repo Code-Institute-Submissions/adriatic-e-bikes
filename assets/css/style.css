@@ -422,9 +422,9 @@ font-size:90%;
 
 @media (max-width: 767px) {
     .heading3-container {background-repeat:no-repeat;
-                background-size:564px 375px;
-               background-attachment: initial;
-               height:40vh;
+                        background-size:564px 375px;
+                        background-attachment: initial;
+                        height:40vh;
                 
    
    
@@ -436,6 +436,12 @@ font-size:90%;
 }
 /*endHeading3*/
 
+/*Gallery*/
+.gallery-container {background-color: #004774;
+                    padding:20px;
+                    margin-top:20px;
+                    }
+/*endGallery*/
 
 /*Island*/
                  
