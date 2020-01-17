@@ -21,7 +21,7 @@ body {font-family: 'Montserrat', sans-serif;
 	     
 }
 
-.navbar .navbar-toggler{background-color: #5fb3f9;                                         }
+.navbar .navbar-toggler{background-color: #5fb3f9;}
 
 .navbar .navbar-brand {
                       font-size: 120%;
@@ -99,11 +99,14 @@ body {font-family: 'Montserrat', sans-serif;
                                     
 }
 
-@media (min-width: 992px) {
+@media (max-width: 767px) {
     .heading-container {background-repeat:no-repeat;
-    background-size:2000px;
-        
-        
+                background-size:675px 450px ;
+               background-attachment: initial;
+               height:50vh;
+                
+   
+   
     }
 }
 
@@ -178,7 +181,6 @@ body {font-family: 'Montserrat', sans-serif;
 .packages-container .packages-text{padding:15px;
 font-size:90%;
 }
-
 
 /*endPackages*/
 
@@ -343,7 +345,7 @@ font-size:90%;
 
 .heading2-container{ height: 100vh;
                      color:white;
-                     background: url('../images/manonhill3.jpg') no-repeat bottom right fixed;
+                     background: url('../images/26HD.jpeg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
@@ -367,6 +369,18 @@ font-size:90%;
     }
 }
 
+@media (max-width: 767px) {
+   .heading2-container{background-repeat:no-repeat;
+                 background-size:500px 325px;
+                background-attachment: initial;
+                height:40vh;
+                
+                
+   
+   
+    }
+}
+
 .heading2 .heading2-text{word-spacing: 10px;
                         text-shadow: 3px 3px #444; 
 }
@@ -381,19 +395,21 @@ font-size:90%;
 
 .heading3-container{ height: 100vh;
                     color:white;
-                     background: url('../images/jump.jpg') no-repeat bottom right fixed;
+                     background: url('../images/21HD.jpeg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
                      display:flex;
                      align-items:center;
                      justify-content:center;
-                     position:relative; 
+                     background-position:center-bottom;
                      background-color:#E8F9FF;
                       animation-name: heading-background;
                     animation-duration: 4s;
                     animation-fill-mode: forwards;                                   
 }
+
+
 
 @keyframes heading-background {
     from{
@@ -401,6 +417,17 @@ font-size:90%;
     }
     to{
         transform: scale(1);
+    }
+}
+
+@media (max-width: 767px) {
+    .heading3-container {background-repeat:no-repeat;
+                background-size:564px 375px;
+               background-attachment: initial;
+               height:40vh;
+                
+   
+   
     }
 }
 
