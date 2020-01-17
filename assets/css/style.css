@@ -283,7 +283,7 @@ font-size:90%;
 
 .modal{background-color:#444;
       color:#5fb3f9; 
-      background-color: #5fb3f9;;
+      background-color: #5fb3f9;
 }
 
 
@@ -292,8 +292,7 @@ font-size:90%;
 
 /*Contact.html*/
 
-
-.contact-container{ background: url('../images/contactbackground.jpeg') no-repeat bottom                        right fixed;
+.contact-container{ background: url('../images/43HD.jpg') no-repeat bottom                        right fixed;
                     -webkit-background-size: cover;
                     -o-background-size: cover;
                      background-size: cover;
@@ -329,11 +328,12 @@ font-size:90%;
 
 
 .contact-container .form-control{color: white;
-                                 	 background-color: #5fb3f9;
+                                 	 background-color: white;
 }
 
 .contact-container .contact-button{padding:25px;
 }
+
 
 /*endContact*/
 
