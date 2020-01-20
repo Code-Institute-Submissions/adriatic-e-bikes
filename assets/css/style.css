@@ -495,7 +495,7 @@ font-size:90%;
                align-items:center;
                justify-content:center;
                position:relative; 
-               background-color:#E8F9FF;
+               
  }
 
 .brac1-container{ height: 60vh;
@@ -507,7 +507,7 @@ font-size:90%;
                    align-items:center;
                    justify-content:center;
                    position:relative; 
-                   background-color:#E8F9FF;
+                   
 }
 
 /*endBrac*/
@@ -524,7 +524,7 @@ font-size:90%;
                  align-items:center;
                  justify-content:center;
                 position:relative; 
-                 background-color:#E8F9FF;
+                 
 }
 .cres1-container{height: 60vh;
                  color:white;
@@ -536,7 +536,7 @@ font-size:90%;
                  align-items:center;
                  justify-content:center;
                  position:relative; 
-                 background-color:#E8F9FF;
+                
 }
 
 @media (max-width: 767px) {
@@ -576,7 +576,7 @@ font-size:90%;
                 align-items:center;
                 justify-content:center;
                 position:relative; 
-               background-color:#E8F9FF;
+               
  }
 
 /*endKrk*/
@@ -593,7 +593,7 @@ font-size:90%;
                      align-items:center;
                      justify-content:center;
                      position:relative; 
-                     background-color:#E8F9FF;
+                     
   
 }
 .dugiotok1-container{height: 60vh;
@@ -606,7 +606,7 @@ font-size:90%;
                      align-items:center;
                      justify-content:center;
                      position:relative; 
-                     background-color:#E8F9FF;
+                     
 }
 /*endDugiotok*/
 
@@ -621,7 +621,7 @@ font-size:90%;
                  align-items:center;
                  justify-content:center;
                  position:relative; 
-                 background-color:#E8F9FF;
+                 
   
 }
 .hvar1-container{height: 60vh;
@@ -634,7 +634,7 @@ font-size:90%;
                  align-items:center;
                  justify-content:center;
                  position:relative; 
-                background-color:#E8F9FF;
+                
 }
 
 /*endHvar*/
@@ -650,7 +650,7 @@ font-size:90%;
                 align-items:center;
                justify-content:center;
                 position:relative; 
-               background-color:#E8F9FF;  
+               
 }
 
 
@@ -665,7 +665,7 @@ font-size:90%;
                align-items:center;
                justify-content:center;
                position:relative; 
-               background-color:#E8F9FF;
+              
 } 
 
 /*endPag*/
@@ -681,7 +681,7 @@ font-size:90%;
                      align-items:center;
                      justify-content:center;
                      position:relative; 
-                     background-color:#E8F9FF;
+                    
   
 }
 .korcula1-container{ height: 60vh;
@@ -694,7 +694,7 @@ font-size:90%;
                      align-items:center;
                      justify-content:center;
                      position:relative; 
-                     background-color:#E8F9FF;
+                    
 }
 /*endKorcula*/
 
@@ -710,7 +710,7 @@ font-size:90%;
                      align-items:center;
                      justify-content:center;
                      position:relative; 
-                     background-color:#E8F9FF;
+                     
   
 }
 .mljet1-container{height: 60vh;
@@ -723,7 +723,7 @@ font-size:90%;
                      align-items:center;
                      justify-content:center;
                      position:relative; 
-                     background-color:#E8F9FF;
+                     
 }
 /*endMljet*/
 
@@ -738,7 +738,7 @@ font-size:90%;
                      align-items:center;
                      justify-content:center;
                      position:relative; 
-                     background-color:#E8F9FF;
+                     
   
 }
 .vis1-container{     height: 60vh;
@@ -751,7 +751,7 @@ font-size:90%;
                      align-items:center;
                      justify-content:center;
                      position:relative; 
-                     background-color:#E8F9FF;
+                     
 }
 /*endVis*/
 
@@ -766,12 +766,12 @@ font-size:90%;
                      align-items:center;
                      justify-content:center;
                      position:relative; 
-                     background-color:#E8F9FF;
+                    
   
 }
 .rab1-container{    height: 60vh;
                     color:white;
-                     background: url('../images/10HD.jpg') no-repeat bottom right fixed;
+                     background: url('../images/Rab.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
@@ -779,7 +779,7 @@ font-size:90%;
                      align-items:center;
                      justify-content:center;
                      position:relative; 
-                     background-color:#E8F9FF;
+                     ;
 }
 
 /*endRab*/
