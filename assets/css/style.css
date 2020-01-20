@@ -67,7 +67,6 @@ body {font-family: 'Montserrat', sans-serif;
 }
 
 
-
 /*end/Navbar*/
 
 
@@ -101,9 +100,9 @@ body {font-family: 'Montserrat', sans-serif;
 
 @media (max-width: 767px) {
     .heading-container {background-repeat:no-repeat;
-                background-size:675px 450px ;
-               background-attachment: initial;
-               height:50vh;
+                        background-size:675px 450px ;
+                        background-attachment: initial;
+                        height:50vh;
                 
    
    
@@ -186,10 +185,10 @@ font-size:90%;
 
 /*Button*/
 
-.btn--book{ font-size:15px;
+.btn--book{ font-size:10px;
             font-weight:bold;
-            border-radius:10px;
-            width:120px;
+            border-radius:5px;
+            width:100px;
             background-color:#5fb3f9;
             
 }
@@ -238,9 +237,9 @@ font-size:90%;
 
 .footer-container .footer-main {
                                 padding:15px;
-                                 margin-bottom: 15px;
+                                margin-bottom: 15px;
                                  
-                                 font-size:25px;
+                                font-size:25px;
                                   
 }
 
@@ -292,7 +291,7 @@ font-size:90%;
 
 /*Contact.html*/
 
-.contact-container{ background: url('../images/43HD.jpg') no-repeat bottom                        right fixed;
+.contact-container{ background: url('../images/78HD.jpg') no-repeat bottom                        right fixed;
                     -webkit-background-size: cover;
                     -o-background-size: cover;
                      background-size: cover;
@@ -302,6 +301,16 @@ font-size:90%;
                      position:relative; 
                      background-color:#E8F9FF;
                                         
+}
+@media (max-width: 767px) {
+    .heading-container {background-repeat:no-repeat;
+                        background-size:675px 450px ;
+                        background-attachment: initial;
+                         height:50vh;
+                
+   
+   
+    }
 }
 
 .contact-container .contact-main{font-weight: bold;
@@ -319,6 +328,14 @@ font-size:90%;
                             background-color:#5fb3f9;           
 }
 
+
+.btn-send{font-size:15px;
+                            font-weight:bold;
+                             border-radius:10px;
+                             width:100px;
+                            background-color:#5fb3f9;           
+}
+
 .btn-send:hover,
 .btn-send,
 .btn-send:focus,
@@ -326,9 +343,8 @@ font-size:90%;
                        margin-bottom: 400px;
 }
 
-
 .contact-container .form-control{color: black;
-                                 	 background-color: white;
+                                background-color: white;
 }
 
 .contact-container .contact-button{padding:25px;
@@ -437,30 +453,33 @@ font-size:90%;
 /*endHeading3*/
 
 /*Gallery*/
+
 .gallery-container {background-color: #004774;
-                    padding:20px;
-                    margin-top:20px;
-                    }
+}
+
+.gallery-container img{
+                        padding:15px;
+                        width:300px;
+                       
+}
+
 /*endGallery*/
 
 /*Island*/
                  
-.island-container{padding:25px;
+.island-container{padding:10px;
                  text-align:center;
                  background: #004774;
-                 color:white;
-                           
+                 color:white;                          
 }
 
 
-.island-container .island-main{font-weight: bold;
-                               padding:25px;
-                              
-                              
-                               font-size:25px;                            
+.island-container .island-main{padding:10px;
+                               font-size:30px;                            
 }
 
-.island-container .island-text{ padding:25px;
+.island-container .island-text{  font-size:90%;
+  padding:10px;
                                 margin-bottom: 20px;
 }
 
@@ -468,7 +487,7 @@ font-size:90%;
 
 .brac-container{height: 60vh;
                color:white;
-               background: url('../images/brachtml.jpg') no-repeat bottom right fixed;
+               background: url('../images/47HD.jpg') no-repeat bottom right fixed;
                -webkit-background-size: cover;
                -o-background-size: cover;
                 background-size: cover;
@@ -481,36 +500,7 @@ font-size:90%;
 
 .brac1-container{ height: 60vh;
                   color:white;
-                   background: url('../images/brachtml1.jpg') no-repeat bottom right fixed; -webkit-background-size: cover;
-                  -o-background-size: cover;
-                   background-size: cover;
-                   display:flex;
-                   align-items:center;
-                  justify-content:center;
-                   position:relative; 
-                   background-color:#E8F9FF;
-}
-
-/*endBrac*/
-
-
-/*Cres*/
-.cres-container{ height: 60vh;
-                 color:white;
-                 background: url('../images/creshtml.jpg') no-repeat bottom right fixed;
-                -webkit-background-size: cover;
-                 -o-background-size: cover;
-                 background-size: cover;
-                 display:flex;
-                align-items:center;
-                 justify-content:center;
-                position:relative; 
-                 background-color:#E8F9FF;
-}
-.cres1-container{height: 60vh;
-                 color:white;
-                 background: url('../images/cres1html.jpg') no-repeat bottom right fixed;
-                 -webkit-background-size: cover;
+                   background: url('../images/2HD.jpg') no-repeat bottom right fixed; -webkit-background-size: cover;
                   -o-background-size: cover;
                    background-size: cover;
                    display:flex;
@@ -519,14 +509,54 @@ font-size:90%;
                    position:relative; 
                    background-color:#E8F9FF;
 }
+
+/*endBrac*/
+
+
+/*Cres*/
+.cres-container{ height: 76vh;
+                 color:white;
+                 background: url('../images/45HD.jpg') no-repeat bottom right fixed;
+                -webkit-background-size: cover;
+                 -o-background-size: cover;
+                 background-size: cover;
+                 display:flex;
+                 align-items:center;
+                 justify-content:center;
+                position:relative; 
+                 background-color:#E8F9FF;
+}
+.cres1-container{height: 60vh;
+                 color:white;
+                 background: url('../images/27HD.jpg') no-repeat bottom right fixed;
+                 -webkit-background-size: cover;
+                 -o-background-size: cover;
+                  background-size: cover;
+                 display:flex;
+                 align-items:center;
+                 justify-content:center;
+                 position:relative; 
+                 background-color:#E8F9FF;
+}
+
+@media (max-width: 767px) {
+                  .heading-container {background-repeat:no-repeat;
+                                      background-size:675px 450px ;
+                                    background-attachment: initial;
+                                      height:50vh;
+                
+   
+   
+    }
+}
 /*endCres*/
 
 
 /*Krk*/
 
-.krk-container{height: 60vh;
+.krk-container{height: 79vh;
                color:white;
-               background: url('../images/krkhtml.jpeg') no-repeat bottom right fixed;
+               background: url('../images/46HD.jpeg') no-repeat bottom right fixed;
               -webkit-background-size: cover;
              -o-background-size: cover;
                background-size: cover;
@@ -538,7 +568,7 @@ font-size:90%;
 }
 .krk1-container{height: 60vh;
                 color:white;
-                background: url('../images/krk1html.jpg') no-repeat bottom right fixed;
+                background: url('../images/3HD.jpg') no-repeat bottom right fixed;
                 -webkit-background-size: cover;
                 -o-background-size: cover;
                 background-size: cover;
@@ -553,9 +583,9 @@ font-size:90%;
 
 /*Dugiotok*/
 
-.dugiotok-container{ height: 60vh;
+.dugiotok-container{ height: 76vh;
                      color:white;
-                     background: url('../images/dugiotokhtml1.jpg') no-repeat bottom right fixed;
+                     background: url('../images/53HD.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
@@ -568,7 +598,7 @@ font-size:90%;
 }
 .dugiotok1-container{height: 60vh;
                      color:white;
-                     background: url('../images/dugiotok2html.jpeg') no-repeat bottom right fixed;
+                     background: url('../images/52HD.jpeg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
@@ -581,9 +611,9 @@ font-size:90%;
 /*endDugiotok*/
 
 /*Hvar*/
-.hvar-container{ height: 60vh;
+.hvar-container{ height: 76vh;
                  color:white;
-                 background: url('../images/hvarhtml.jpg') no-repeat bottom right fixed;
+                 background: url('../images/50HD.jpg') no-repeat bottom right fixed;
                  -webkit-background-size: cover;
                  -o-background-size: cover;
                  background-size: cover;
@@ -596,7 +626,7 @@ font-size:90%;
 }
 .hvar1-container{height: 60vh;
                 color:white;
-               background: url('../images/hvar1html.jpeg') no-repeat bottom right fixed;
+               background: url('../images/13HD.jpg') no-repeat bottom right fixed;
                -webkit-background-size: cover;
                -o-background-size: cover;
                 background-size: cover;
@@ -610,9 +640,9 @@ font-size:90%;
 /*endHvar*/
 
 /*Pag*/
-.pag-container{ height: 60vh;
+.pag-container{ height: 76vh;
                color:white;
-               background: url('../images/paghtml.jpg') no-repeat bottom right fixed;
+               background: url('../images/51HD.jpg') no-repeat bottom right fixed;
                -webkit-background-size: cover;
                -o-background-size: cover;
                 background-size: cover;
@@ -620,13 +650,14 @@ font-size:90%;
                 align-items:center;
                justify-content:center;
                 position:relative; 
-               background-color:#E8F9FF;
-  
+               background-color:#E8F9FF;  
 }
+
+
 
 .pag1-container{height: 60vh;
                color:white;
-               background: url('../images/pag1html.jpg') no-repeat bottom right fixed;
+               background: url('../images/14HD.jpg') no-repeat bottom right fixed;
               -webkit-background-size: cover;
                -o-background-size: cover;
                 background-size: cover;
@@ -640,9 +671,9 @@ font-size:90%;
 /*endPag*/
 
 /*Korcula*/
-.korcula-container{ height: 60vh;
+.korcula-container{ height: 76vh;
                      color:white;
-                     background: url('../images/korculahtml.jpg') no-repeat bottom right fixed;
+                     background: url('../images/44HD.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
@@ -654,8 +685,8 @@ font-size:90%;
   
 }
 .korcula1-container{ height: 60vh;
-                     color:bisque;
-                     background: url('../images/korcula1html.jpeg') no-repeat bottom right fixed;
+                     color:white;
+                     background: url('../images/19HD.jpeg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
@@ -669,9 +700,9 @@ font-size:90%;
 
 
 /*Mljet*/
-.mljet-container{ height: 60vh;
+.mljet-container{ height: 76vh;
                     color:white;
-                     background: url('../images/mljethtml.jpg') no-repeat bottom right fixed;
+                     background: url('../images/54HD.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
@@ -684,7 +715,7 @@ font-size:90%;
 }
 .mljet1-container{height: 60vh;
                     color:white;
-                     background: url('../images/mljet1html.jpg') no-repeat bottom right fixed;
+                     background: url('../images/31HD.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
@@ -697,9 +728,9 @@ font-size:90%;
 /*endMljet*/
 
 /*Vis*/
-.vis-container{ height: 60vh;
+.vis-container{ height: 76vh;
                     color:white;
-                     background: url('../images/vishtml.jpg') no-repeat bottom right fixed;
+                     background: url('../images/55HD.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
@@ -712,7 +743,7 @@ font-size:90%;
 }
 .vis1-container{     height: 60vh;
                      color:white;
-                     background: url('../images/vis1html.jpg') no-repeat bottom right fixed;
+                     background: url('../images/83HD.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
@@ -725,9 +756,9 @@ font-size:90%;
 /*endVis*/
 
 /*Rab*/
-.rab-container{     height: 60vh;
+.rab-container{     height: 76vh;
                     color:white;
-                     background: url('../images/rabhtml.jpg') no-repeat bottom right fixed;
+                     background: url('../images/57HD.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
@@ -740,7 +771,7 @@ font-size:90%;
 }
 .rab1-container{    height: 60vh;
                     color:white;
-                     background: url('../images/rab1html.jpg') no-repeat bottom right fixed;
+                     background: url('../images/84HD.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
                      -o-background-size: cover;
                      background-size: cover;
