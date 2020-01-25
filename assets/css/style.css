@@ -199,6 +199,7 @@ font-size:90%;
             width:110px;
             background-color:#5fb3f9;
             
+            
 }
 .btn--book:hover,
 .btn--book:active,
@@ -298,7 +299,7 @@ font-size:90%;
 
 /*Contact.html*/
 
-.contact-container { height: 40vh;
+.contact-container { height: 70vh;
                     color:white;
                       background: url('../images/107HDKORCULA.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
@@ -327,7 +328,7 @@ font-size:90%;
 .contact2 {text-align: center;
  }
 
-.contact2-container { height: 50vh;
+.contact2-container { height: 70vh;
                     color:white;
                      background: url('../images/62HD.jpg') no-repeat bottom right fixed;
                      -webkit-background-size: cover;
@@ -402,8 +403,8 @@ font-size:90%;
                    
 }
 
- .contact4-container .form{margin-left:10px;
-      margin-right:10px;
+ .contact4-container .form{margin-left:50px;
+      margin-right:50px;
       }
 
 .btn-send:hover,
