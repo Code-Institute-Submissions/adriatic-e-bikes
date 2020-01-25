@@ -179,111 +179,102 @@
 
 <!--JumpToTheTop-->
 
-<div class="container-fluid home-container">
-		<section class="home">
-			<div class="row">
-				<div class="col-12">
-					<a href="#top">
-						<h4 class="text-center home-main"><i class="fas fa-caret-square-up"></i> Go to Top
-							<i class="fas fa-caret-square-up"></i></h4>
-						</h4>
-					</a>
-				</div>
-			</div>
-		</section>
-</div>
+ <div class="container-fluid home-container">
+			<section class="home">
+				<div class="row">
+					<div class="col-12">
+						<a href="#top">
+                         <h4 class="text-center home-main"><i class="fas fa-caret-square-up"></i> Go to Top 
+                         <i class="fas fa-caret-square-up"></i></h4></a>
+					    </div>
+					</div>	
+			</section>
+ </div>
 
-<!--endJumpToTheTop-->
+ <!--endJumpToTheTop-->
 
 </article>
 
-<!--modalbody-->
+<!--Modal-->
 
-	<div class="modal" tabindex="-1" role="dialog" id="book-now">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">Book Now Adriatic e-bike!</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-				</div>
-				<div class="modal-body">
+      <div class="modal" tabindex="-1" role="dialog" id="book-now">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                     <h5 class="modal-title">Book Now Adriatic e-bike!</h5>
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                          <div class="modal-body">
+                      <form>
+                <div class="form-group">
+                             <label for="exampleFormControlInput1">First Name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                             </div>
+                <div class="form-group">
+                                <label for="exampleFormControlInput1">Last Name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Last Name">
+                             </div>
 
+                <div class="form-group">
+                                <label for="exampleFormControlInput1">Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@com">
+                              </div>
 
-					<form>
-						<div class="form-group">
-							<label for="exampleFormControlInput1">First Name</label>
-							<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-  </div>
-							<div class="form-group">
-								<label for="exampleFormControlInput1">Last Name</label>
-								<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Last Name">
-  </div>
+                 <div class="form-group">
+                                 <label for="exampleFormControlSelect1">Choose Island</label>
+                                  <select class="form-control" id="exampleFormControlSelect1">
+                                     <option>Cres</option>
+                                     <option>Brac</option>
+                                     <option>Krk</option>
+                                     <option>Brac</option>
+                                     <option>Hvar</option>
+                                     <option>Pag</option>
+                                     <option>Korcula</option>
+                                     <option>Dugi otok</option>
+                                     <option>Mljet</option>
+                                     <option>Vis</option>
+                                     <option>Rab</option>
+                              </select>
+                          </div>
+                    <div class="form-group">
+                                <label for="exampleFormControlSelect2">Choose Explorer Packages:</label>
+                                <select multiple class="form-control" id="exampleFormControlSelect2">
+                                    <option>Teambuilding Explore (Max 15 people)</option>
+                                    <option>Family&Friends Explore</option>
+                                    <option>Solo Explorer</option>
+                              </select>
+                         </div>
+                    <div class="form-group">
+                                   <label for="exampleFormControlSelect2">How many Hours? (max 10h)</label>
+                                   <select multiple class="form-control" id="exampleFormControlSelect2">
+                                       <option>1</option>
+                                       <option>2</option>
+                                       <option>3</option>
+                                       <option>4</option>
+                                       <option>5</option>
+                                       <option>6</option>
+                                       <option>7</option>
+                                       <option>8</option>
+                                       <option>9</option>
+                                      <option>10</option>
+                                 </select>
+                            </div>
 
-								<div class="form-group">
-									<label for="exampleFormControlInput1">Email</label>
-									<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@com">
-  </div>
+                      <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Message / Question</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                   </div>
+                                   <button type="submit" class="btn--book">Submit</button>
+                                 </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
-									<div class="form-group">
-										<label for="exampleFormControlSelect1">Choose Island</label>
-										<select class="form-control" id="exampleFormControlSelect1">
-<option>Cres</option>
-      <option>Brac</option>
-      <option>Krk</option>
-      <option>Brac</option>
-      <option>Hvar</option>
-      <option>Pag</option>
-      <option>Korcula</option>
-      <option>Dugi otok</option>
-      <option>Mljet</option>
-      <option>Vis</option>
-      <option>Rab</option>
-
-
-
-    </select>
-									</div>
-									<div class="form-group">
-										<label for="exampleFormControlSelect2">Choose Explorer Packages:</label>
-										<select multiple class="form-control" id="exampleFormControlSelect2">
-      <option>Teambuilding Explore (Max 15 people)</option>
-      <option>Family&Friends Explore</option>
-      <option>Solo Explorer</option>
-    </select>
-									</div>
-
-
-
-									<div class="form-group">
-										<label for="exampleFormControlSelect2">How many Hours? (max 10h)</label>
-										<select multiple class="form-control" id="exampleFormControlSelect2">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-      <option>6</option>
-      <option>7</option>
-      <option>8</option>
-      <option>9</option>
-      <option>10</option>
-    </select>
-									</div>
-
-									<div class="form-group">
-										<label for="exampleFormControlTextarea1">Message / Question</label>
-										<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-									</div>
-									<button type="submit" class="btn--book">Submit</button>
-					</form>
-
-					<!--endmodalbody-->
-				</div>
-			</div>
-		</div>
-	</div>
+<!--endModal-->
+  
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -298,6 +289,5 @@
 	</script>
 
 
-</body>
-
+ </body>
 </html>
