@@ -129,7 +129,7 @@ HTML
 
 CSS
 
-Bootstrap v4.4.1 (For page structure, responsive layout and basic styling.)
+Bootstrap v4.4.1
 
 Font Awesome
 
