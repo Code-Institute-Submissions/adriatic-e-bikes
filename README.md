@@ -121,7 +121,7 @@ and proved to react responsively.
 
 ---
 
-#Technologies Used
+# Technologies Used
 
 Gitpod
 
@@ -137,7 +137,7 @@ Google Fonts
 
 ---
 
-#Git
+# Git
 
 The following commands were used during the process:
 
@@ -153,13 +153,13 @@ python3 -m http.server
 
 ---
 
-#repl.it and Sublime Text 3 
+# repl.it and Sublime Text 3 
 
 The project was also done on https://repl.it/~ and with Sublime Text 3 on my PC, to prevent data lost.
 
 ---
 
-#Credits
+# Credits
 
 All images are taken from:
 
@@ -177,7 +177,7 @@ https://en.wikipedia.org/wiki/Main_Page
 
 ---
 
-#Acknowledgements
+# Acknowledgements
 
 Whish to thanks all members of Code Institute active on Slack and ready to help on everything at random times. 
 I want to mention unvaluable help at this stage: Richard Wells, and all tutors, alumni and students always ready and generous to help.
@@ -185,7 +185,7 @@ To Narender Singh my mentor for this project special thanks.
 
 ---
 
-#Online help and inspiration
+# Online help and inspiration
 
 https://stackoverflow.com/
 
