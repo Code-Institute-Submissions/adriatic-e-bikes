@@ -193,7 +193,7 @@ Once selected, the page auto refreshed, and the website was deployed.
 
 ---
 
-# repl.it and Sublime Text 3 
+# Repl.it and Sublime Text 3 
 
 The project was also done on https://repl.it/~ and with Sublime Text 3 on my PC, to prevent data lost.
 
