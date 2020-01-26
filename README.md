@@ -1,7 +1,7 @@
 
+# Milestone Project One - Adriatic e-bikes
 
-
-# Milestone Project 1 - Adriatic e-bike LTD
+# Code Institute / User-Centric Frontend Development Milestone Project
 
 ---
 
@@ -38,7 +38,13 @@ and
 
 Rent It Drive It Love It (is repeated on other pages)
 
-# Navigation Bar contains 6 links: 
+# Features
+
+Navbar
+
+The navbar is featured on all pages.
+The page item links are on the right side of the navigation bar, featuring:
+Navigation bar contains 6 links: 
 
 1. Adriatic e-bikes
 
@@ -54,21 +60,24 @@ Rent It Drive It Love It (is repeated on other pages)
 
 When links in Navbar is hovered, they are rotating 2s.
 
----
+The navbar collapses into a burger menu when resized to tablet and mobile view.
 
-#Adriatic e-bikes
+---
+Links:
+
+1.Adriatic e-bikes
 
 This is Home Page which contains two main sections: Why (quotes of users) and Explorer Packages(Teambuilding Explore, Family & Friends Explore and Solo Explore).
 
 ---
 
-#Why
+2.Why
 
 Quotes of users, photos of person is from my family (sisters in law, brother in law and my son)
 
 ---
 
-#Explorer packages
+3.Explorer packages
 
 There is 3 packages, Teambuilding Explore, Family & Friends Explore and Solo Explore, Explorer Packages
 Every packages have form for booking, Book Now option is avaible on all pages (only not in Gallery page).
@@ -84,14 +93,14 @@ Message /Question
 
 ---
 
-#Gallery
+4.Gallery
 
 When user click on Gallery link, a new page opens where user can see images of bikes and islands,
 (The page layout is inspired by the layout of https://www.pexels.com/ )
 
 ---
 
-#Contact
+5.Contact
 
 When user click on Contact link, new page opens where user can see info about Company and there is form where user can send question.
 This page includes a Contact form with 3 required fields
@@ -105,12 +114,16 @@ Site contains contact e-mail address, location and phone number
 
 ---
 
-#Islands
+6.Islands
 Link Island is dropdown menu where user can choose 10 islands(there is 10 individual pages, for each island one):
  Cres, Krk, Brac, Hvar, Pag, Korcula, Dugi otok, Mljet, Vis and Rab.
  Every island has own page with original image of chosen Island, a short description of the island, and option for Book.
 
 ---
+
+Footer
+
+The footer is featured on all pages. It contains Follow Us with links to Facebook, Twitter, LinkedIn, Instagram and Youtube.
 
 # Testing
 
@@ -138,21 +151,33 @@ Font Awesome
 
 Google Fonts
 
+Git
+
+Github
+
 ---
 
-# Git
+# Deployment
 
-The following commands were used during the process:
-
+This project was developed using the GitHub IDE, committed to git and pushed to GitHub
+with following commands:
 git init 
-
 git add .
-
 git commit -m "text-description of working stage on project"
-
 git push -u origin master
 
-python3 -m http.server
+python3 -m http.server(while working on project)
+
+To deploy my website to GitHub Pages, the following steps were taken:
+Log into GitHub.
+Selected repository from GitHub dashboard.
+Select ‘Settings’ at the top of the chosen repository.
+Scroll down to GitHub Pages section.
+Under ‘Source’ click the drop-down menu and select ‘Master Branch’.
+Once selected, the page auto refreshed, and the website was deployed.
+
+
+
 
 ---
 
