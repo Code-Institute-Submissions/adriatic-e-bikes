@@ -1,21 +1,39 @@
-Milestone Project 1 - Adriatic e-bike LTD
+# Milestone Project 1 - Adriatic e-bike LTD
 
 ---
 
-My Milestone Project 1 is to used to display my skills learned in the following sections: HTML Fundamentals, CSS Fundamentals, and User Centric Frontend Developement.
+
+Live Website: https://onadj.github.io/adriatic-e-bikes/
+
+GitHub Repo: https://github.com/onadj/adriatic-e-bikes
+
+---
+
+My Milestone Project 1 is to used to display my skills learned in the following sections:
+HTML Fundamentals, CSS Fundamentals, and User Centric Frontend Developement.
 
 ---
 
 The site is made for an imaginary company called Adriatic e-bike LTD.
 The main goal of my webpage is to rent e-bikes online to explore the 10 largest Croatian islands. They are Korcula, Cres, Krk, Brac, Hvar, Pag, Dugi otok, Mljet, Vis and Rab. When renting online, the customer can choose 3 packages: Teambuilding Explore, Family & Friends Explore and Solo Explore.
+Site is adressed to people who would like to
+take on the role of a professional mountain bike rider but are not physically prepared for the difficult challenges of 
+riding on top of a hill.
+Also people with e-bikes can visit points of interest, restaurants, landmarks, and beaches around.
 
 ---
 
 UX
 
-I want to create a simpe design for the site focused on the basic information about the company and their service.
+I want to create a simple design for the site focused on the basic information about the company and their service.
 Site is based on few types of blue color and images is only bikes, Croatian islands and Adriatic sea. 
+Page have two Callout text:
 
+Sun, Sea, You & e-bike...
+
+and
+
+Rent It Drive It Love It (is repeated on other pages)
 
 # Navigation Bar contains 6 links: 
 
@@ -31,10 +49,13 @@ Site is based on few types of blue color and images is only bikes, Croatian isla
 
 6. Islands
 
+When links in Navbar is hovered, they are rotating 2s.
+
 ---
+
 #Adriatic e-bikes
 
-This is Home Page which contains two main sections: Why, Explorer Packages)
+This is Home Page which contains two main sections: Why (quotes of users) and Explorer Packages(Teambuilding Explore, Family & Friends Explore and Solo Explore).
 
 ---
 
@@ -43,6 +64,7 @@ This is Home Page which contains two main sections: Why, Explorer Packages)
 Quotes of users, photos of person is from my family (sisters in law, brother in law and my son)
 
 ---
+
 #Explorer packages
 
 There is 3 packages, Teambuilding Explore, Family & Friends Explore and Solo Explore, Explorer Packages
@@ -60,30 +82,32 @@ Message /Question
 ---
 
 #Gallery
+
 When user click on Gallery link, a new page opens where user can see images of bikes and islands,
 (The page layout is inspired by the layout of https://www.pexels.com/ )
 
 ---
 
 #Contact
+
 When user click on Contact link, new page opens where user can see info about Company and there is form where user can send question.
 This page includes a Contact form with 3 required fields
+
 Name
 E-mail
 Message
 
+Site contains contact e-mail address, location and phone number
+
+
 ---
 
 #Islands
-Link Island is dropdown menu where user can choose 10 islands:
+Link Island is dropdown menu where user can choose 10 islands(there is 10 individual pages, for each island one):
  Cres, Krk, Brac, Hvar, Pag, Korcula, Dugi otok, Mljet, Vis and Rab.
  Every island has own page with original image of chosen Island, a short description of the island, and option for Book.
 
-
-When links in Navbar is hoovered, they are rotating 2s.
-
 ---
-
 
 #Testing
 
@@ -128,9 +152,10 @@ git push -u origin master
 python3 -m http.server
 
 ---
+
 #repl.it and Sublime Text 3 
 
-The project was also done on https://repl.it/~ and on Sublime Text 3 on my PC, to prevent data lost.
+The project was also done on https://repl.it/~ and with Sublime Text 3 on my PC, to prevent data lost.
 
 ---
 
@@ -173,6 +198,8 @@ https://dribbble.com/
 https://alistapart.com/
 
 https://www.youtube.com/ (Croatia - Full of Life)
+
+
 
 
 
