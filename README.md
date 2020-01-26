@@ -128,11 +128,11 @@ The footer is featured on all pages. It contains Follow Us with links to Faceboo
 
 # Testing
 
-W3C Mark-up Validation and W3C CSS Validation was used to check the validity of the website. 
+W3C Mark-up Validation was used to check the validity of the website. 
 Errors were spotted and fixed.
 
 I was testing the site with Chrome developer tools on my desktop PC,
-and with Samsung Galaxy A50, Samsung Galaxy Tab A6, iPhone SE and with multiple browsers
+and with Samsung Galaxy A50, Samsung Galaxy Tab A6, iPhone 7 and with multiple browsers
 (Safari, Chrome, Firefox, Internet Explorer) to make sure compatibility and responsiveness are working.
 Site was tested on all major browser in different platforms and operating systems and another 
 mobile devices of different sizes and brands,
