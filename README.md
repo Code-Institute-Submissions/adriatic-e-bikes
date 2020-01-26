@@ -159,7 +159,7 @@ The project was also done on https://repl.it/~ and with Sublime Text 3 on my PC,
 
 ---
 
-# Credits
+# Content/Media
 
 All images are taken from:
 
