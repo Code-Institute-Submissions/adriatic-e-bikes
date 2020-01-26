@@ -23,7 +23,7 @@ Also people with e-bikes can visit points of interest, restaurants, landmarks, a
 
 ---
 
-UX
+# UX
 
 I want to create a simple design for the site focused on the basic information about the company and their service.
 Site is based on few types of blue color and images is only bikes, Croatian islands and Adriatic sea. 
