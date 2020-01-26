@@ -109,7 +109,7 @@ Link Island is dropdown menu where user can choose 10 islands(there is 10 indivi
 
 ---
 
-#Testing
+# Testing
 
 Validated my HTML and CSS code was no error found.
 I was testing the site with Chrome developer tools on my desktop PC,
