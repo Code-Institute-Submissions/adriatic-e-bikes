@@ -19,45 +19,71 @@ Site is based on few types of blue color and images is only bikes, Croatian isla
 
 # Navigation Bar contains 6 links: 
 
-1. Adriatic e-bikes: (Home Page which contains two sections: Why, Explorer Packages), 
+1. Adriatic e-bikes
 
-2. Why: (Quotes of users, Qoutes is on Home Page), 
+2. Why
 
-3. Explorer packages: (There is 3 packages, Teambuilding Explore, Family & Friends Explore and Solo Explore, Explorer Packages is on Home Page)
+3. Explorer packages
 
-4. Gallery: when user click on Gallery link a new page opens where user can see images of bikes and islands, ( The page layout is inspired by the layout of https://www.pexels.com/ )
+4. Gallery
 
-5. Contact: when user click on Contact link new page opens where user can see info about Company and there is form where user can send question.
+5. Contact
 
-6. Islands: link Island is dropdown menu where user can choose 10 islands: Cres, Krk, Brac, Hvar, Pag, Korcula, Dugi otok, Mljet, Vis and Rab.
+6. Islands
 
-   Every island has own page with original image of chosen Island, a short description of the island, and option for Book.
+---
+#Adriatic e-bikes
 
-   When links in Navbar is hoovered, they are rotating 2s.
+This is Home Page which contains two main sections: Why, Explorer Packages)
 
 ---
 
-#Homepage
-
-There's a hero image with overlay text covering the surface of the device.
-
 #Why
 
-Photos of person is from my family (sisters in law, brother in law and my son)
+Quotes of users, photos of person is from my family (sisters in law, brother in law and my son)
+
+---
+#Explorer packages
+
+There is 3 packages, Teambuilding Explore, Family & Friends Explore and Solo Explore, Explorer Packages
+Every packages have form for booking, Book Now option is avaible on all pages (only not in Gallery page).
+
+Booking Form is with 7 fields:
+First Name
+Last Name
+Email
+Choose Island (10 islands)
+Choose Explorer Packages (Teambuilding Explore(Max 15 people)), Family&Friends Explore, Solo Explore,
+How many Hours (max 10h)
+Message /Question
+
+---
+
+#Gallery
+When user click on Gallery link, a new page opens where user can see images of bikes and islands,
+(The page layout is inspired by the layout of https://www.pexels.com/ )
+
+---
 
 #Contact
-
-This page includes a form with 3 required fields
+When user click on Contact link, new page opens where user can see info about Company and there is form where user can send question.
+This page includes a Contact form with 3 required fields
 Name
 E-mail
 Message
 
+---
 
-#Deployment
+#Islands
+Link Island is dropdown menu where user can choose 10 islands:
+ Cres, Krk, Brac, Hvar, Pag, Korcula, Dugi otok, Mljet, Vis and Rab.
+ Every island has own page with original image of chosen Island, a short description of the island, and option for Book.
 
-The site is hosted and published using GitHub pages and deployed from the master branch only. 
+
+When links in Navbar is hoovered, they are rotating 2s.
 
 ---
+
 
 #Testing
 
@@ -101,9 +127,12 @@ git push -u origin master
 
 python3 -m http.server
 
-#https://repl.it/~
+---
+#repl.it and Sublime Text 3 
 
 The project was also done on https://repl.it/~ and on Sublime Text 3 on my PC, to prevent data lost.
+
+---
 
 #Credits
 
@@ -121,11 +150,15 @@ https://www.timeout.com/croatia/travel/top-10-croatian-islands
 
 https://en.wikipedia.org/wiki/Main_Page
 
+---
 
 #Acknowledgements
+
 Whish to thanks all members of Code Institute active on Slack and ready to help on everything at random times. 
 I want to mention unvaluable help at this stage: Richard Wells, and all tutors, alumni and students always ready and generous to help.
 To Narender Singh my mentor for this project special thanks.
+
+---
 
 #Online help and inspiration
 
