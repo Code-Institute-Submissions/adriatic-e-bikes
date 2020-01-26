@@ -63,21 +63,22 @@ When links in Navbar is hovered, they are rotating 2s.
 The navbar collapses into a burger menu when resized to tablet and mobile view.
 
 ---
+
 Links:
 
-1.Adriatic e-bikes
+1. Adriatic e-bikes
 
 This is Home Page which contains two main sections: Why (quotes of users) and Explorer Packages(Teambuilding Explore, Family & Friends Explore and Solo Explore).
 
 ---
 
-2.Why
+2. Why
 
 Quotes of users, photos of person is from my family (sisters in law, brother in law and my son)
 
 ---
 
-3.Explorer packages
+3. Explorer packages
 
 There is 3 packages, Teambuilding Explore, Family & Friends Explore and Solo Explore, Explorer Packages
 Every packages have form for booking, Book Now option is avaible on all pages (only not in Gallery page).
@@ -93,14 +94,14 @@ Message /Question
 
 ---
 
-4.Gallery
+4. Gallery
 
 When user click on Gallery link, a new page opens where user can see images of bikes and islands,
 (The page layout is inspired by the layout of https://www.pexels.com/ )
 
 ---
 
-5.Contact
+5. Contact
 
 When user click on Contact link, new page opens where user can see info about Company and there is form where user can send question.
 This page includes a Contact form with 3 required fields
@@ -114,7 +115,7 @@ Site contains contact e-mail address, location and phone number
 
 ---
 
-6.Islands
+6. Islands
 Link Island is dropdown menu where user can choose 10 islands(there is 10 individual pages, for each island one):
  Cres, Krk, Brac, Hvar, Pag, Korcula, Dugi otok, Mljet, Vis and Rab.
  Every island has own page with original image of chosen Island, a short description of the island, and option for Book.
@@ -161,22 +162,31 @@ Github
 
 This project was developed using the GitHub IDE, committed to git and pushed to GitHub
 with following commands:
+
 git init 
+
 git add .
+
 git commit -m "text-description of working stage on project"
+
 git push -u origin master
 
 python3 -m http.server(while working on project)
 
+
 To deploy my website to GitHub Pages, the following steps were taken:
+
 Log into GitHub.
+
 Selected repository from GitHub dashboard.
+
 Select ‘Settings’ at the top of the chosen repository.
+
 Scroll down to GitHub Pages section.
+
 Under ‘Source’ click the drop-down menu and select ‘Master Branch’.
+
 Once selected, the page auto refreshed, and the website was deployed.
-
-
 
 
 ---
@@ -208,22 +218,32 @@ https://en.wikipedia.org/wiki/Main_Page
 # Acknowledgements
 
 Whish to thanks all members of Code Institute active on Slack and ready to help on everything at random times. 
-I want to mention unvaluable help at this stage: Richard Wells, and all tutors, alumni and students always ready and generous to help.
+I want to mention unvaluable help at this stage: all tutors, alumni and students always ready and generous to help.
 To Narender Singh my mentor for this project special thanks.
 
 ---
 
 # Online help and inspiration
 
+
+code:
+
 https://stackoverflow.com/
 
 https://www.w3schools.com/css/
+
+
+
+inspiration for this website:
 
 https://www.awwwards.com/
 
 https://dribbble.com/
 
 https://alistapart.com/
+
+
+exploring islands:
 
 https://www.youtube.com/ (Croatia - Full of Life)
 
