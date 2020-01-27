@@ -165,12 +165,12 @@ Mobile Phone
 ---
 Desktop
 ---
-![Desktop](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20Desktop%20Home%20Page.png)
+![Desktop](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20-%20Desktop%20Gallery.png)
 
 Mobile Phone
 ---
 
-![Mobile Phone](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20Mobile%20Home%20Page.png)
+![Mobile Phone](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20Mobile%20Gallery.png)
 
 ---
 
@@ -178,24 +178,24 @@ Mobile Phone
 ---
 Desktop
 ---
-![Desktop](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20Desktop%20Home%20Page.png)
+![Desktop](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20Desktop%20Contact.png)
 
 Mobile Phone
 ---
 
-![Mobile Phone](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20Mobile%20Home%20Page.png)
+![Mobile Phone]https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20Mobile%20Contact.png)
 
 ---
 # Islands
 ---
 Desktop
 ---
-![Desktop](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20Desktop%20Home%20Page.png)
+![Desktop](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20WireFrame%20Desktop%20Island.png)
 
 Mobile Phone
 ---
 
-![Mobile Phone](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20Mobile%20Home%20Page.png)
+![Mobile Phone](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Mobile%20Island.png)
 
 ---
 
