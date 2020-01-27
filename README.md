@@ -139,6 +139,11 @@ mobile devices of different sizes and brands,
 and proved to react responsively.
 
 ---
+# Wireframes
+
+I used Balsamiq Mockup 3 to complete my wireframes.
+Wireframing my website was extremely beneficial as it allowed me to visualise my website prior to coding
+and made development a lot easier.
 
 # Technologies Used
 
