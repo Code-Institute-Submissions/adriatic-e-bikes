@@ -145,7 +145,19 @@ I used Balsamiq Mockup 3 to complete my wireframes.
 Wireframing my website was extremely beneficial as it allowed me to visualise my website prior to coding
 and made development a lot easier.
 
-![Desktop Home Page](https://github.com/onadj/adriatic-e-bikes/blob/master/assets/images/Balsamiq%20Wireframe%20Desktop%20Home%20Page.png)
+Home Page
+![Desktop](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+
+![Mobile Phone](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+
+Gallery
+
+
+Contact
+
+Islands
+
+
 
 # Technologies Used
 
