@@ -147,7 +147,7 @@ and made development a lot easier.
 
 Home Page
 ---
-![Desktop](https://raw.githubusercontent.com/onadj/adriatic-e-bikes/assets/images/Balsamiq Wireframe Desktop Home Page.png)
+![Desktop](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
 ![Mobile Phone](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
