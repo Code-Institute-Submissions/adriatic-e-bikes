@@ -146,7 +146,8 @@ Wireframing my website was extremely beneficial as it allowed me to visualise my
 and made development a lot easier.
 
 Home Page
-![Desktop](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+---
+![Desktop](https://raw.githubusercontent.com/onadj/adriatic-e-bikes/assets/images/Balsamiq Wireframe Desktop Home Page.png)
 
 ![Mobile Phone](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
