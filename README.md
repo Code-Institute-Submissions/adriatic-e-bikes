@@ -144,24 +144,60 @@ and proved to react responsively.
 I used Balsamiq Mockup 3 to complete my wireframes.
 Wireframing my website was extremely beneficial as it allowed me to visualise my website prior to coding
 and made development a lot easier.
+Wireframes is for Home Page, Gallery, Contact and Islands (For Islands I have one wireframe because all is the same)
 
-Home Page
+# Home Page
 
+---
 Desktop
 ---
 ![Desktop](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20Desktop%20Home%20Page.png)
 
 Mobile Phone
+---
 
 ![Mobile Phone](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20Mobile%20Home%20Page.png)
 
-Gallery
+---
 
+# Gallery
 
-Contact
+---
+Desktop
+---
+![Desktop](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20Desktop%20Home%20Page.png)
 
-Islands
+Mobile Phone
+---
 
+![Mobile Phone](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20Mobile%20Home%20Page.png)
+
+---
+
+# Contact
+---
+Desktop
+---
+![Desktop](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20Desktop%20Home%20Page.png)
+
+Mobile Phone
+---
+
+![Mobile Phone](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20Mobile%20Home%20Page.png)
+
+---
+# Islands
+---
+Desktop
+---
+![Desktop](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20Desktop%20Home%20Page.png)
+
+Mobile Phone
+---
+
+![Mobile Phone](https://github.com/onadj/adriatic-e-bikes/blob/master/wireframes/Balsamiq%20Wireframe%20Mobile%20Home%20Page.png)
+
+---
 
 
 # Technologies Used
